@@ -5,3 +5,4 @@
 - 扩展🔮
   - [徽章](https://shields.io/)
   - [图标](https://favicon.io/favicon-converter/)
+  - [emoji](https://www.emojiall.com/zh-hans)
