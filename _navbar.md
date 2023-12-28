@@ -1,4 +1,7 @@
-- 知识の仓库
+- 计算机基础🎈
+  - [数据结构](/cs408/DataStructure/README.md)
+  - [计算机组成原理](/cs408/ComputerComposition/README.md)
+- 知识の仓库🎯
   - [前端](/web/README.md)
   - [JAVA](/java/README.md)
 - 作者🏆
