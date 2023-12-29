@@ -1,6 +1,8 @@
 - 计算机基础🎈
   - [数据结构](/cs408/DataStructure/README.md)
   - [计算机组成原理](/cs408/ComputerComposition/README.md)
+  - [操作系统](/cs408/OperatingSystem/README.md)
+  - [计算机网络](/cs408/ComputerNetwork/README.md)
 - 知识の仓库🎯
   - [前端](/web/README.md)
   - [JAVA](/java/README.md)

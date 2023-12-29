@@ -1,5 +1,5 @@
-- [DataStructure🎲](/cs408/)
-  - [数据结构绪论](/cs408/DataStructure/王道绪论.md)
+- [DataStructure🎲](/cs408/DataStructure/)
+  - [王道绪论](/cs408/DataStructure/王道绪论.md)
   - [王道线性表](/cs408/DataStructure/王道线性表.md)
   - [王道栈和队列](/cs408/DataStructure/王道栈和队列.md)
     - [王道栈的应用](/cs408/DataStructure/王道栈的应用.md)
