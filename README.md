@@ -1,9 +1,17 @@
-> An awesome project.
 
+
+<p align="center">
+    <a href="https://blog.csdn.net/Augenstern_QXL">
+        <img src="./static/logo/Middle%20Finger%20Light%20Skin%20Tone.png" alt="Brain"/>
+    </a>
+</p>
+<p align="center">
+<strong>🍬An awesome project.</strong>
+</p>
 
 
 > [!NOTE]
-> 本网站知识地图如下！
+> 📚本网站知识地图如下！点击即可进入对应页面！
 
 <!-- tabs:start -->
 

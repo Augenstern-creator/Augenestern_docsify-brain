@@ -1,8 +1,9 @@
-![logo](static/icon/icon.svg)
+[comment]: <> (![logo]&#40;static/icon/icon.svg&#41;)
+![logo](static/logo/Revolving%20Hearts.png)
 
 # 生命是有光的 <small>V1.0</small>
 
-> 逍遥の小窝💎
+> 📚逍遥の小窝
 
 - 📖边角料构成的小小世界
 - 🎄有趣 有品 有种
