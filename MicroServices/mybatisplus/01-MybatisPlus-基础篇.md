@@ -470,18 +470,31 @@ QueryWrapper,UpdateWrapper，【LambdaQueryWrapper】
 ### 5.2、常用AbstractWrapper方法
 
 > eq：equals，等于
+
 > gt：greater than ，大于 >
+
 > ge：greater than or equals，大于等于≥
+
 > lt：less than，小于<
+
 > le：less than or equals，小于等于≤
+
 > between：相当于SQL中的BETWEEN
+
 > like：模糊匹配。like("name","黄")，相当于SQL的name like '%黄%'
+
 > likeRight：模糊匹配右半边。likeRight("name","黄")，相当于SQL的name like '黄%'
+
 > likeLeft：模糊匹配左半边。likeLeft("name","黄")，相当于SQL的name like '%黄'
+
 > notLike：notLike("name","黄")，相当于SQL的name not like '%黄%'
+
 > isNull
+
 > isNotNull
+
 > and：SQL连接符AND
+
 > or：SQL连接符OR
 >
 > in: in(“age",{1,2,3})相当于 age in(1,2,3)
