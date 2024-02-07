@@ -27,7 +27,7 @@
 - [JavaEE](/java/javaee/传智spring(一).md)
   - [2、Spring(二)](/java/javaee/传智spring(二).md)
   - [3、Spring(三)](/java/javaee/传智spring(三).md)
-  - [4、MyBatis(一)](/java/javaee/传智mybatis(二).md)
+  - [4、MyBatis(一)](/java/javaee/传智mybatis.md)
   - [5、MyBatis(二)](/java/javaee/传智spring(二).md)
   - [6、SpringMVC(一)](/java/javaee/传智springMVC.md)
   - [7、SpringMVC(二)](/java/javaee/传智springMVC(二).md)
