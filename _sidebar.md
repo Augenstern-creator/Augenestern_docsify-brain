@@ -1,5 +1,13 @@
-- [Copyright 🌍](/README.md)
-  - [Configs](/config/README.md)
+
+
+
+
+
+
+
+
+- [🌍 Copyright](/README.md)
+  - [🍇 Configs](/config/README.md)
     - [DocsifyRepo](/config/DocsifyRepo.md)
     - [DocsifyName](/config/DocsifyName.md)
     - [DocsifyCover](/config/DocsifyCover.md)
@@ -8,7 +16,7 @@
     - [DocsifyIcon](/config/DocsifyIcon.md)
     - [DocsifyEmoji](/config/DocsifyEmoji.md)
     - [DocsifySelection](/config/DocsifySelection.md)
-  - [Plugins](./plugins/README.md)
+  - [🍈 Plugins](./plugins/README.md)
     - [CodeHighLight](/plugins/CodeHighLight.md)
     - [CopyCode](/plugins/CopyCode.md)
     - [CopyRemind](/plugins/CopyRemind.md)
@@ -27,6 +35,6 @@
     - [SearchAll](/plugins/SearchAll.md)
     - [FontCounter](/plugins/FontCounter.md)
     - [SidebarFold](/plugins/SidebarFold.md)
-  - [Buger](/Buger/README.md)
+  - [🍉 Buger](/Buger/README.md)
     - [DocsifyNavBar](/Buger/DocsifyNavBar.md)
     - [DocsifyInclined](/Buger/DocsifyInclined.md)
