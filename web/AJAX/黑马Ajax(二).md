@@ -357,7 +357,7 @@ app.listen(3001);
 
 
 
-## 6.6 CORS跨域资源共享
+## 1.8、CORS跨域资源共享
 
 
 
@@ -398,7 +398,7 @@ app.use((req, res, next) => {
 
 
 
-## 6.9 withCredentials属性
+## 1.9、withCredentials属性
 
 使用Ajax技术发送跨域请求时，默认情况下不会在请求中携带cookie信息。但是如果两台服务器都是我们自己的，我们想要实现跨域请求，需要在客户端和服务器端进行处理
 
@@ -864,7 +864,7 @@ app.get('/jsonp', (req, res) => {
 
 ![](黑马Ajax(二).assets/14.png)
 
-## 2.6、$.get()、$.post()方法概述
+## 2.6、`$.get()、$.post()`方法概述
 
 作用：`$.get`方法用于发送get请求，`$.post`方法用于发送post请求
 
@@ -918,7 +918,7 @@ $.post('http://www.example.com', {name: 'lisi', age: 22}, function (response) {}
 
 这样的请求地址在使用上是没有问题的，但是语义比较混乱，例如：删除用户信息问号后面还要跟获取用户信息的 id，又比如删除用户有些人开发使用 remove、有的人开发使用 delete，这样就没有一套统一的请求地址。而 RESTful 就是为了解决这样的问题。
 
-## 8.2 RESTful API概述
+## 3.2、RESTful API概述
 
 一套关于设计请求的规范。
 
@@ -936,7 +936,7 @@ $.post('http://www.example.com', {name: 'lisi', age: 22}, function (response) {}
 - users => /users
 - articles => /articles 
 
-## 8.3 RESTful API的实现
+## 3.3、RESTful API的实现
 
 ![](黑马Ajax(二).assets/16.png)
 
