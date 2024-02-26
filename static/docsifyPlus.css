@@ -1,6 +1,6 @@
 /*文字选中背景颜色改变*/
 *::selection {
-  background-color: #ff0000;
+  background-color: #9A2EFE;
   color: #fff;
 }
 

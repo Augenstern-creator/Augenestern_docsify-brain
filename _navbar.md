@@ -9,7 +9,7 @@
   - [编程工具](/uTools/README.md)
   - [微服务体系](/MicroServices/README.md)
 - 登神长阶🧱
-  - [盘古云积累](/workstudy/workstudy_DMZ.md)
+  - [盘古云积累](/workstudy/workstudy_Internet/workstudy_DMZ.md)
 - 作者🏆
   - [博客](https://blog.csdn.net/Augenstern_QXL)
   - [Gitee](https://gitee.com/Augenstern-creator)
@@ -20,3 +20,4 @@
   - [图标](https://favicon.io/favicon-converter/)
   - [emoji](https://www.emojiall.com/zh-hans)
   - [logo](https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis)
+  - [Color](https://html-color-codes.info/chinese/)
