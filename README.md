@@ -4,11 +4,8 @@
     </a>
 </p>
 
-[comment]: <> (<p align="center">)
+<h5>自我介绍</h5>
 
-[comment]: <> (<strong>🍬An awesome project.</strong>)
-
-[comment]: <> (</p>)
 
 
 > [!NOTE]

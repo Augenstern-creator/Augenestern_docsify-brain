@@ -27,7 +27,7 @@
 - 🎄有趣 有品 有种
 
 [WebBlog](https://blog.csdn.net/Augenstern_QXL)
-[Get Started](/README.md)
+[Get Started](/Hello.md)
 ```
 
 > [!NOTE]
