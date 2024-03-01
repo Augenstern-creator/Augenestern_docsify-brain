@@ -97,6 +97,21 @@ POJO**专指只有setter/getter/toString的简单类，包括DO/DTO/BO/VO等**
 
 
 
+# 2、数据库与属性的映射
+
+- 数据库最好使用小写，并且使用下划线：`login_name`
+- Java属性中需要转为驼峰：`loginName`
+
+假如是MyBatis框架，则需配置：
+
+```yaml
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true  # 驼峰转换
+```
+
+默认情况下 MyBatisPlus 会开启字段名列名的**驼峰映射**， 即从经典数据库列名 A_COLUMN（下划线命名） 到经典 Java 属性名 aColumn（驼峰命名） 的类似映射 。
+
 
 
 
