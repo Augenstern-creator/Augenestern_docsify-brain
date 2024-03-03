@@ -21,3 +21,4 @@
   - [emoji](https://www.emojiall.com/zh-hans)
   - [logo](https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis)
   - [Color](https://html-color-codes.info/chinese/)
+  - [Themes](https://jhildenbiddle.github.io/docsify-themeable/)
