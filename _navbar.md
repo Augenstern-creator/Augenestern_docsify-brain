@@ -3,7 +3,7 @@
   - [计算机组成原理](/cs408/ComputerComposition/王道计组第一章(一).md)
   - [操作系统](/cs408/OperatingSystem/王道OS绪论(一).md)
   - [计算机网络](/cs408/ComputerNetwork/王道计网(一).md)
-- 知识の仓库🎯
+- 编程の仓库🎯
   - [前端仓库](/web/HTML/HTML(一).md)
   - [JAVA仓库](/java/README.md)
   - [编程工具](/uTools/Hutool/Hutool(一).md)
