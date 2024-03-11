@@ -1,27 +1,55 @@
 - 开源轮子 🚀
   - [开源GitHub](/opensource/opensource_github/AI_GitHub.md)
   - [开源Tools](/opensource/opensource_tools/opensource_tools.md)
-- 项目管理与IT架构
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 计算机基础 🎈 
+
+- 计算机基础 🎈
   - [数据结构](/cs408/DataStructure/王道绪论.md)
   - [计算机组成原理](/cs408/ComputerComposition/王道计组第一章(一).md)
   - [操作系统](/cs408/OperatingSystem/王道OS绪论(一).md)
   - [计算机网络](/cs408/ComputerNetwork/王道计网(一).md)
-- 编程の仓库 🎯
-  - [前端仓库](/web/HTML/HTML(一).md)
-  - [JAVA仓库](/java/README.md)
-  - [编程工具](/uTools/Hutool/Hutool(一).md)
-  - [微服务体系](/MicroServices/README.md)
-- 登神长阶 🧱
+  - [计算机系统重装](/cs408/ReloadOS/重装系统.md)
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+
+- 前端仓库 🍧
+  - [HTML](/web/HTML/HTML(一).md)
+  - [CSS](/web/CSS/CSS(一).md)
+  - [JavaScript](/web/JavaScript/JavaScript(一).md)
+  - [Bootstrap](/web/BootStrap/Bootstrap(一).md)
+  - [LayUI](/web/LayUI/LayUI.md)
+  - [JQuery](/web/JQuery/jQuery.md)
+  - [Ajax](/web/AJAX/黑马Ajax.md)
+  - [Echarts](/web/Echarts/Echarts.md)
+  - [Node](/web/Node/01_尚硅谷Node.md)
+  - [Vue3](/web/Vue3/Vue3(一).md)
+  - [WebPack](/web/WebPack/01_尚硅谷WebPack5.md)
+  - [ElementPlus](/web/ElementPlus/01_Element%20Plus.md)
+- [后端仓库 🍦](/java/README.md)
+  - [JavaSE](/java/README.md)
+  - [MySQL](/java/mysql/黑马MySQL(一).md)
+  - [JDBC](/java/jdbc/狂神说JDBC.md)
+  - [Spring](/java/javaee/传智spring(一).md)
+  - [MyBatis](/java/javaee/传智mybatis.md)
+  - [SpringMVC](/java/javaee/传智springMVC.md)
+  - [SpringBoot](/java/springboot/三更SpringBoot(一).md)
+  - [Linux](/java/linux/韩顺平Linux.md)
+  - [Hutool](/java/Hutool/Hutool(一).md)
+  - [Nginx反向代理](/java/Nginx/狂神说Nginx.md)
+  - [Swagger接口规范](/java/Swagger/01_Swagger.md)
+  - [Git](/java/Git/尚硅谷Git.md)
+  - [GitHub美化](/java/GitHub/Github美化.md)
+  - [MyBatisPlus](/java/mybatisplus/01-MybatisPlus-基础篇.md)
+  - [Shiro](/java/shiro/不良人Shiro(一).md)
+  - [SpringCloud](/java/springcloud/SpringCloud(一).md)
+  - [RabbitMQ](/java/rabbitmq/RabbitMQ(一).md)
+- 项目管理与IT架构 🧱
   - [盘古云积累](/workstudy/workstudy_Internet/workstudy_DMZ.md)
 - 作者 🏆
   - [博客](https://blog.csdn.net/Augenstern_QXL)

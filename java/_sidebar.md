@@ -1,4 +1,5 @@
-- [JavaSE](/java/)
+- 🍇 JavaSE
+  - [0、Java历史](/java/README.md)
   - [1、Java环境搭建](/java/javase/00.java环境搭建.md)
   - [2、Java基础总结](/java/javase/00_java基础大总结.md)
   - [3、Java继承](/java/javase/01_Java继承.md)
@@ -14,17 +15,21 @@
   - [13、Java网络编程与NI0](/java/javase/11_Java_网络编程与NIO.md)
   - [14、Java注解反射与动态代理](/java/javase/12_Java_注解反射与动态代理.md)
   - [15、Java XML和Dom4j](/java/javase/13_Java_XML和Dom4j.md)
-- [MySQL](/java/mysql/黑马MySQL(一).md)
-  - [MySQL(二)](/java/mysql/黑马MySQL(二).md)
-  - [MySQL(三)](/java/mysql/黑马MySQL(三).md)
-  - [MySQL(四)](/java/mysql/黑马MySQL(四).md)
-- [JDBC](/java/jdbc/狂神说JDBC.md)
-- [JavaWeb](/java/javaweb/狂神说Tomcat.md)
+- 🍈 MySQL
+  - [1、MySQL(一)](/java/mysql/黑马MySQL(一).md)
+  - [2、MySQL(二)](/java/mysql/黑马MySQL(二).md)
+  - [3、MySQL(三)](/java/mysql/黑马MySQL(三).md)
+  - [4、MySQL(四)](/java/mysql/黑马MySQL(四).md)
+- 🍉 JDBC
+  - [1、JDBC](/java/jdbc/狂神说JDBC.md)
+- 🍊 JavaWeb
+  - [1、狂神说Tomcat](/java/javaweb/狂神说Tomcat.md)
   - [2、狂神说Servlet](/java/javaweb/狂神说Servlet.md)
   - [3、狂神说cookie和session](/java/javaweb/cookie和session.md)
   - [4、狂神说filter和listener](/java/javaweb/过滤器和监听器.md)
   - [5、狂神说JSP](/java/javaweb/狂神说JSP.md)
-- [JavaEE](/java/javaee/传智spring(一).md)
+- 🍋 JavaEE
+  - [1、Spring(一)](/java/javaee/传智spring(一).md)
   - [2、Spring(二)](/java/javaee/传智spring(二).md)
   - [3、Spring(三)](/java/javaee/传智spring(三).md)
   - [4、MyBatis(一)](/java/javaee/传智mybatis.md)
@@ -34,9 +39,46 @@
   - [8、SpringMVC(三)](/java/javaee/传智springMVC(三).md)
   - [9、SSM整合](/java/javaee/SSM整合.md)
   - [10、jQuery.ajax](/java/javaee/SSM框架课程扩展之Ajax学习.md)
-- [SpringBoot](/java/springboot/三更SpringBoot(一).md)
+- 🍌 SpringBoot
+  - [1、SpringBoot(一)](/java/springboot/三更SpringBoot(一).md)
   - [2、SpringBoot(二)](/java/springboot/三更SpringBoot(二).md)
   - [3、SpringBoot(三)](/java/springboot/三更SpringBoot(三).md)
   - [4、SpringBoot(四)](/java/springboot/三更SpringBoot(四).md)
   - [5、SpringBoot(五)](/java/springboot/三更SpringBoot(五).md)
   - [6、SpringBoot(六)](/java/springboot/三更SpringBoot(六).md)
+- 🍍 Linux
+  - [1、Linux(一)](/java/linux/韩顺平Linux.md)
+  - [2、Linux(一)](/java/linux/韩顺平Linux(二).md)
+  - [3、Linux(一)](/java/linux/韩顺平Linux(三).md)
+  - [4、Linux(一)](/java/linux/韩顺平Linux(四).md)
+  - [5、Linux(一)](/java/linux/韩顺平Linux(五).md)
+  - [6、Linux(一)](/java/linux/韩顺平Linux(六).md)
+  - [7、Linux(一)](/java/linux/韩顺平Linux(七).md)
+  - [8、Linux(一)](/java/linux/韩顺平Linux(八).md)
+- 🥭 Hutool
+  - [1、Hutool工具框架](/java/Hutool/Hutool(一).md)
+  - [2、Hutool文件与资源工具类](/java/Hutool/Hutool(二).md)
+  - [3、Hutool数组与集合工具类](/java/Hutool/Hutool(三).md)
+  - [4、Hutool加密与脱敏工具类](/java/Hutool/Hutool(四).md)
+  - [5、Hutool系统工具类](/java/Hutool/Hutool(五).md)
+- 🍎 Nginx
+  - [6、Nginx反向代理](/java/Nginx/狂神说Nginx.md)
+- 🍏 Swagger3
+  - [1、整合Swagger](/java/Swagger/01_Swagger.md)
+- 🍐 Git
+  - [1、Git(一)](/java/Git/尚硅谷Git.md)
+  - [2、Git(二)](/java/Git/尚硅谷Git(二).md)
+  - [3、Git(三)](/java/Git/尚硅谷Git(三).md)
+  - [4、Git(四)](/java/Git/尚硅谷Git(四).md)
+- 🍒 GitHub Profile
+  - [1、GitHub Profile](/java/GitHub/Github美化.md)
+- 🍑 MyBatisPlus
+  - [1、MyBatisPlus](/java/mybatisplus/01-MybatisPlus-基础篇.md)
+- 🍓 Shiro
+  - [1、Shiro(一)](/java/shiro/不良人Shiro(一).md)
+  - [2、Shiro(二)](/java/shiro/不良人Shiro(二).md)
+- 🥝 SpringCloud
+  - [1、SpringCloud(一)](/java/springcloud/SpringCloud(一).md)
+  - [2、SpringCloud(二)](/java/springcloud/SpringCloud(二).md)
+- 🍅 RabbitMQ
+  - [1、RabbitMQ](/java/rabbitmq/RabbitMQ(一).md)
