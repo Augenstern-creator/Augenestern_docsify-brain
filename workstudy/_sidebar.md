@@ -4,7 +4,7 @@
   - [🍊 堡垒机 VPN 与构建机](/workstudy/workstudy_Internet/workstudy_堡垒机.md)
   - [🍍 Web应用防火墙WAF](/workstudy/workstudy_Internet/workstudy_WAF.md)
   - [🍎 网关和路由器](/workstudy/workstudy_Internet/workstudy_网关和路由器.md)
-  - [🍏 域名各个分层](/workstudy/workstudy_Internet/workstudy_域名.md)
+  - [🍏 域名分层与域名缓存](/workstudy/workstudy_Internet/workstudy_域名分层与缓存.md)
 - 🌰 测试开发
   - [🍋 SIT与UAT测试](/workstudy/workstudy_dev/workstudy_environment.md)
   - [🥭 实体IP与虚拟IP(VIP)](/workstudy/workstudy_dev/workstudy_ip.md)
