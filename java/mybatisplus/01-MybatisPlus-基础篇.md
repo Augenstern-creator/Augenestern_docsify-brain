@@ -30,7 +30,7 @@ insert  into `user`(`id`,`user_name`,`password`,`name`,`age`,`address`) values (
 
 #### ②创建SpringBoot工程
 
-##### 添加依赖
+- 添加依赖
 
 ~~~~xml
     <parent>
@@ -56,7 +56,7 @@ insert  into `user`(`id`,`user_name`,`password`,`name`,`age`,`address`) values (
     </dependencies>
 ~~~~
 
-##### 创建启动类
+- 创建启动类
 
 ~~~~java
 @SpringBootApplication
