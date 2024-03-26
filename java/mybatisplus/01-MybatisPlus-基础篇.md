@@ -1104,17 +1104,11 @@ public void testPage(){
 
 
 
-#### 示例
-
-##### 需求
+需求：
 
 ​	我们需要去查询Orders表，并且要求查询的时候除了要获取到Orders表中的字段，还要获取到每个订单的下单用户的用户名。
 
-
-
-##### 准备工作
-
-###### SQL准备
+- SQL准备：
 
 ~~~mysql
 SELECT 
@@ -1187,13 +1181,7 @@ public class Orders  {
 
 ~~~~
 
-
-
-##### 实现
-
-①定义接口，定义方法
-
-方法第一个测试定义成Page类型
+定义接口，定义方法：方法第一个测试定义成Page类型
 
 ~~~~java
 public interface OrdersMapper extends BaseMapper<OrdersVO> {
