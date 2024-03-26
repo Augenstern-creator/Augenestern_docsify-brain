@@ -51,7 +51,8 @@
   - [RabbitMQ](/java/rabbitmq/RabbitMQ(一).md)
   - [Docker](/java/docker/01_Docker.md)
 - 项目管理与IT架构 🧱
-  - [盘古云积累](/workstudy/workstudy_Internet/workstudy_DMZ.md)
+  - [阿里云积累](/workstudy/workstudy_Internet/workstudy_DMZ.md)
+  - [盘古踩坑积累](/workstudy/workstudy_dev/workstudy_dev.md)
 - 作者 🏆
   - [博客](https://blog.csdn.net/Augenstern_QXL)
   - [Gitee](https://gitee.com/Augenstern-creator)
