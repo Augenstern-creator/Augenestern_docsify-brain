@@ -70,23 +70,54 @@ LayUI 中的表格会经常性使用到`[[...]]`的表项，但是在`Thymeleaf`
 
 
 
+## 1.4、Springboot实体类配置Data类型指定格式
+
+springboot项目中，如果声明一个@RestController 接口，如果返回有 Date格式的话，则前端通过http接收到的格式默认为`Tue May 24 2022 17:49:42`
+
+![](workstudy_dev.assets/5.png)
+
+我们要指定给前端返回的数据格式，有两种办法：
+
+1. 第一种方法:在实体类的Data字段上加注解：` @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss")`
+
+```java
+//配置日期写入格式 datatime:yyyy-MM-dd HH:mm:ss
+@JsonFormat(pattern="yyyy-MM-dd HH:mm:ss")
+private Date studentBirthday;
+```
+
+
+
+2. 第二种方法:在`application.yml`里面全局jackson序列化格式:
+
+```yaml
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+```
 
 
 
 
 
+## 1.5、关于IDEA2022开启热部署
+
+1. `pom.xml`文件引入依赖
+
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-devtools</artifactId>
+    <optional>true</optional>
+</dependency>
+```
 
 
 
+2. 构建项目
 
-
-
-
-
-
-
-
-
+![](workstudy_dev.assets/6.png)
 
 
 
