@@ -123,6 +123,36 @@ spring:
 
 
 
+## 1.6、SpringBoot测试接口快捷
+
+- 在要测试的接口右键 - 转到 - 测试
+
+![](workstudy_dev.assets/7.png)
+
+
+
+
+
+## 1.7、MapStructPlus与Lombok冲突
+
+有时候会遇到Lombok的`@Data`注解不起作用，可以排查一下是否与 MapStruct、MapStructPlus 依赖冲突。
+
+> 解决办法：[MapStructPlus与Lombok整合](https://easii.gitee.io/mapstruct-plus/guide/faq.html)
+
+> 参考：[Spring @data 无作用](https://blog.csdn.net/baidu_32492845/article/details/86483518)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
