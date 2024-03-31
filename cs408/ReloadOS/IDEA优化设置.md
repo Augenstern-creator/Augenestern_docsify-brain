@@ -113,7 +113,7 @@ groovyScript("def result=''; def stop=false; def params=\"${_1}\".replaceAll('[\
 
 IDEA注释位置默认从行首开始，设置自适应代码缩进：
 
-- File -> Settings - code style - java - code generation - 取消蓝色框选位置勾选
+- File -> Settings - 编辑器 -  code style - java - code generation - 取消蓝色框选位置勾选
 - [idea的注释老是从行首开始_llxxqq5的博客-CSDN博客](https://blog.csdn.net/m0_58574228/article/details/122324335)
 
 
@@ -121,6 +121,64 @@ IDEA注释位置默认从行首开始，设置自适应代码缩进：
 ## 1.6、IDEA方法注释
 
 - [IDEA创建类注释模板和方法注释模板_idea设置类的注释模板_Coder_Cui的博客-CSDN博客](https://blog.csdn.net/xiaocui1995/article/details/123953752)
+
+
+
+
+
+
+
+# 2、插件推荐
+
+1. CodeGlance：代码地图插件，IDEA右侧出现代码地图
+2. TranSlation：翻译插件 🔥
+3. Chinese：汉法插件 🔥
+4. Rainbow Brackets：彩虹括号插件 🔥
+5. Grep Console：控制台日志颜色打印插件 🔥
+
+![](IDEA优化设置.assets/1.png)
+
+6. Dracula Theme：德古拉UI主题
+7. Vue.js：使IDEA可以识别Vue文件 🔥
+8. Maven Search： Maven的依赖管理 🔥
+9. MyBatisX：一键生成dao、service、controller代码 🔥
+10. Git Tool Box：Git辅助工具
+11. Gitee 🔥
+12. Extra ToolWindow Colorful Icons: 图标美化插件 🔥
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -8,7 +8,7 @@
   - [操作系统](/cs408/OperatingSystem/王道OS绪论(一).md)
   - [计算机网络](/cs408/ComputerNetwork/王道计网(一).md)
   - [计算机系统重装](/cs408/ReloadOS/重装系统.md)
-  - [IDEA优化设置](/cs408/ReloadOS/IDEA重装设置.md)
+  - [IDEA优化设置](/cs408/ReloadOS/IDEA优化设置.md)
   - [WebStrom优化设置](/cs408/ReloadOS/WebStrom优化设置.md)
 - 
 - 
