@@ -67,3 +67,5 @@
   - [logo](https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis)
   - [Color](https://html-color-codes.info/chinese/)
   - [Themes](https://jhildenbiddle.github.io/docsify-themeable/)
+  - [Font Awesome](https://www.runoob.com/font-awesome/fontawesome-tutorial.html)
+  - [compress image](https://freecompress.com/zh-cn/compress-image)
