@@ -30,6 +30,7 @@
 <body>
   <div id="app">Loading...</div>
   <script>
+
     window.$docsify = {
       // 设置文档名称
       name: '📖Augenestern_Brain',
@@ -37,6 +38,15 @@
       //nameLink: 'https://blog.csdn.net/Augenstern_QXL',
       // 仓库地址
       repo: 'https://blog.csdn.net/Augenstern_QXL',
+      // 替换右上角小章鱼
+      corner: {
+        // the icon link url to another site
+        url: "https://gitlab.com/gitlab-org/gitlab-svgs",
+        // the default preset icon in docsify-corner
+        icon: "gitlab",
+      },
+      // 路由模式
+      routerMode: 'hash',
       // 开启侧边栏
       loadSidebar: true,
       // 开启导航栏
@@ -128,6 +138,17 @@
         tabComments: true,      // default
         tabHeadings: true       // default
       },
+      // docsify-valine (defaults)
+      Valine: {
+        appId: 'u4tmeTGqHLwLc0uehN1wMhHf-MdYXbMMI',
+        appKey: 'RKtfJv1PXKU2nHAANQv03SmD',
+        // 支持QQ
+        enableQQ: true,
+        // 记录IP
+        recordIP: true
+      },
+
+
 
       // markdown 语法高亮
       plugins: [
@@ -149,6 +170,10 @@
 
           });
 
+
+
+
+
           hook.afterEach(function(html, next) {
             // 解析成 html 后调用。
             // beforeEach 和 afterEach 支持处理异步逻辑
@@ -164,6 +189,14 @@
 
           hook.mounted(function() {
             // 初始化并第一次加载完成数据后调用，只触发一次，没有参数。
+            (function(d, s) {
+              var j, e = d.getElementsByTagName(s)[0];
+              if (typeof LivereTower === 'function') { return; }
+              j = d.createElement(s);
+              j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+              j.async = true;
+              e.parentNode.insertBefore(j, e);
+            })(document, 'script');
           });
 
           hook.ready(function() {
@@ -171,13 +204,13 @@
           });
         }
       ]
-
-
-
     }
+
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+<!--  <script src="/static/css/crypto-js.js"></script>-->
+  <script src="/static/css/pwd.js"></script>
   <!-- Java代码高亮 -->
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
   <!-- 侧边栏可折叠 -->
@@ -242,5 +275,12 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
   <!--docsify-tabs-->
   <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+  <!--docsify valine  -->
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+  <script src="//unpkg.com/docsify-valine/dist/docsify-valine.min.js"></script>
+  <!--docsify-corner  -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-corner/dist/docsify-corner.js"></script>
+
+
 </body>
 </html>
