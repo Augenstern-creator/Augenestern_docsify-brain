@@ -13,16 +13,14 @@
 > [!TIP]
 > 点击图片即可放大
 
-<div style="display: flex;">
-<img src="../static/img/Wechat.jpg" style="width:50%; height: auto" />
-<img src="../static/img/QQ.jpg" style="width:50%; height: auto" />
-</div>
+![](../static/img/Wechat.jpg)
+![](../static/img/QQ.jpg)
 
 # 💖 捐赠
 > [!TIP]
 > 如果本网站有帮助到你，可以请作者喝杯咖啡☕呦!点击图片即可放大。
 
-<img src="../static/img/donate.jpg" style="width:50%;" />
+![](../static/img/donate.jpg)
 
 
 
