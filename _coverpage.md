@@ -27,6 +27,10 @@
 <img alt="Static Badge" src="https://img.shields.io/badge/GitHub-Augenstern%20creator-pink">
 </a>
 
+<a href="#/config/Donate">
+<img alt="Static Badge" src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E8%81%94%E7%B3%BB%E4%BD%9C%E8%80%85-Wechat-blue">
+</a>
+
 
 
 

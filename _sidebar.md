@@ -1,12 +1,36 @@
+- 🍑 网络架构
+- 🍏 爪洼仓库
+- 🍈 MySQL技能树
+- 🍉 JDBC技术集
+- 🍋 JavaWeb体系
+- 🍅 Spring全家桶
+- 🍓 Linux专题
+- 🍎 Nginx专题
+- 🍏 Swagger技能点
+- 🥭 Hutool框架
+- 🍑 MyBatisPlus详解
+- 🍓 Shiro安全框架
+- 🥝 SpringCloud微服务
+- 🍅 RabbitMQ消息队列
+- 🌶️ Docker容器云
+- 🍫 Vue3全家桶
+- 🍬 WebPack脚手架
+- 🍒 Vite脚手架
+- 🥧 Nodejs进阶
+- 🍭 ElementPlus迭代
+- 🧁 Echarts图表
+- 🥝 axios攻略
+- 🍈 Pinia状态管理
+- 🍸 OS重装系统
+- 🍼 王道操作系统
+- 🍒 王道数据结构
+- 🥕 王道计算机组成原理
+- 🌰 王道计算机网络
+- 🍞 面试积累指南
+- 🍗 阿里云ACP认证
+- 🧀 银行从业资格考试
 
-
-
-
-
-
-
-
-- [🌍 Copyright](/README.md)
+- [🌍 逍遥Copyright](/README.md)
   - [🍇 Configs](/config/README.md)
     - [DocsifyRepo](/config/DocsifyRepo.md)
     - [DocsifyName](/config/DocsifyName.md)

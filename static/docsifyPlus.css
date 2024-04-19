@@ -4,10 +4,14 @@
   color: #fff;
 }
 
-
+/*自定义h5标题项*/
 h5 {
-  font-size: 50px !important;
+  font-size: 25px !important;
 }
+
+/*img {*/
+/*  max-width: 100%;*/
+/*}*/
 
 
 
