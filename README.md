@@ -3,13 +3,45 @@
         <img src="./static/logo/Flexed%20Biceps%20Light%20Skin%20Tone.png" alt="Brain"/>
     </a>
 </p>
+<div style="text-align: center">
+<img alt="Static Badge" src="https://img.shields.io/badge/docsify-V4.13-brightgreen">
+<a href="https://blog.csdn.net/Augenstern_QXL" target="_blank">
+<img alt="Static Badge" src="https://img.shields.io/badge/CSDN-%E7%94%9F%E5%91%BD%E6%98%AF%E6%9C%89%E5%85%89%E7%9A%84-8A2BE2">
+</a>
+<img alt="Static Badge" src="https://img.shields.io/badge/Augenestern-GIS-red">
+<a href="https://github.com/Augenstern-creator" target="_blank">
+<img alt="Static Badge" src="https://img.shields.io/badge/GitHub-Augenstern%20creator-pink">
+</a>
+<a href="#/config/Donate">
+<img alt="Static Badge" src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E8%81%94%E7%B3%BB%E4%BD%9C%E8%80%85-Wechat-blue">
+</a>
+<a href="#/config/Donate">
+<img alt="Static Badge" src="https://img.shields.io/badge/QQ%E8%81%94%E7%B3%BB%E6%88%91-QQ-green">
+</a>
+<img alt="Static Badge" src="https://img.shields.io/badge/%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%E4%B8%AD-ing-red">
+</div>
+
 
 <h5>👨‍🎓 About Me</h5>
 
+> [!TIP]
+> 👋嗨咯，你好呀，欢迎来到<strong>逍遥小窝📚</strong>，作者初出象牙塔，目前任职于某知名央企🏦担任研发工程师💻，喜欢探索各类技术，利用工作之余，在这里分享技术、感悟、生活。<br>
+> <br>
+> <em>世界很喧嚣,做自己就好,送给<strong>卷又卷不赢,躺又躺不平</strong>的你,给你<strong>"被讨厌的勇气"</strong>和<strong>"做自己的底气"</strong>。</em><br>
+> <br>
 
+
+![](/static/img/carbon.png) 
+
+
+
+
+
+<h5>🍑 本站食用指南</h5>
 
 > [!NOTE]
-> 📚本网站知识地图如下！点击即可进入对应页面！
+> 📚本网站知识地图如下！点击即可进入对应页面！<br>
+> 🍓侧边栏目录是网站预览，可通过<strong>右上方导航栏</strong>进入对应专栏阅读呦！
 
 <!-- tabs:start -->
 
@@ -184,7 +216,10 @@
 
 
 
+<h5>👨‍🎓 交流</h5>
 
+> [!TIP]
+> 如果您对如何搭建本网站感兴趣，或是您也对技术抱有热枕，亦或是您对<strong>课设、大作业、程序题、毕设、校招、求职、面试</strong>等疑惑需要解答，可点击上方<strong>微信联系我</strong>图标，备注注明来意哈😀！
 
 
 
