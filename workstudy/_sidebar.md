@@ -1,3 +1,9 @@
+- 🥡 银行从业资格证
+  - [🍈 法律法规(一)](/workstudy/workstudy_bank/01_法律法规.md)
+  - [🍍 法律法规(二)](/workstudy/workstudy_bank/02_法律法规.md)
+  - [🍎 法律法规(三)](/workstudy/workstudy_bank/03_法律法规.md)
+  - [🍏 法律法规(四)](/workstudy/workstudy_bank/04_法律法规.md)
+
 - 🍑 网络架构
   - [🍇 DMZ区域的作用与原理](/workstudy/workstudy_Internet/workstudy_DMZ.md)
   - [🍈 数据交换与前置机](/workstudy/workstudy_Internet/workstudy_前置机.md)
@@ -10,6 +16,7 @@
   - [🥭 实体IP与虚拟IP(VIP)](/workstudy/workstudy_dev/workstudy_ip.md)
   - [🍑 PO、VO、DTO的区别](/workstudy/workstudy_dev/workstudy_domain.md)
 - ⛳ 盘古踩坑
+  - [🥭 踩坑积累](/workstudy/workstudy_dev/workstudy_dev.md)
 - ✋ 面试积累
   - ☕ Java
     - [Java(一)](/workstudy/workstudy_interview/01_Java/Java面试(一).md)

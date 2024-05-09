@@ -12,6 +12,11 @@
 - 🍓 Shiro安全框架
 - 🥝 SpringCloud微服务
 - 🍅 RabbitMQ消息队列
+- 🍈 Nacos注册中心
+- 🍢 Eureka注册中心
+- 🍣 Ribbon负载均衡
+- 🥮 Feign远程调用
+- 🍡 Gateway服务网关
 - 🌶️ Docker容器云
 - 🍫 Vue3全家桶
 - 🍬 WebPack脚手架

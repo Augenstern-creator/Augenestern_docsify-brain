@@ -199,19 +199,19 @@
 
 #### **微服务体系**
 
-- [Redis 🌍](/MicroServices/redis/redis(一).md)
-    - [Redis(二)](/MicroServices/redis/redis(二).md)
-    - [Redis(三)](/MicroServices/redis/redis(三).md)
+- [Redis 🌍](/java/redis/redis(一).md)
+    - [Redis(二)](/java/redis/redis(二).md)
+    - [Redis(三)](/java/redis/redis(三).md)
 
-- [MyBatisPlus](/MicroServices/mybatisplus/01-MybatisPlus-基础篇.md)
-- [Linux](/MicroServices/linux/韩顺平Linux.md)
-    - [Linux(二)](/MicroServices/linux/韩顺平Linux(二).md)
-    - [Linux(三)](/MicroServices/linux/韩顺平Linux(三).md)
-    - [Linux(四)](/MicroServices/linux/韩顺平Linux(四).md)
-    - [Linux(五)](/MicroServices/linux/韩顺平Linux(五).md)
-    - [Linux(六)](/MicroServices/linux/韩顺平Linux(六).md)
-    - [Linux(七)](/MicroServices/linux/韩顺平Linux(七).md)
-    - [Linux(八)](/MicroServices/linux/韩顺平Linux(八).md)
+- [MyBatisPlus](/java/mybatisplus/01-MybatisPlus-基础篇.md)
+- [Linux](/java/linux/韩顺平Linux.md)
+    - [Linux(二)](/java/linux/韩顺平Linux(二).md)
+    - [Linux(三)](/java/linux/韩顺平Linux(三).md)
+    - [Linux(四)](/java/linux/韩顺平Linux(四).md)
+    - [Linux(五)](/java/linux/韩顺平Linux(五).md)
+    - [Linux(六)](/java/linux/韩顺平Linux(六).md)
+    - [Linux(七)](/java/linux/韩顺平Linux(七).md)
+    - [Linux(八)](/java/linux/韩顺平Linux(八).md)
 
 - [SpringCloud](/java/springcloud/SpringCloud(一).md)
   - [注册中心Eureka](/java/springcloud/SpringCloud(一).md?id=_3、eureka注册中心)

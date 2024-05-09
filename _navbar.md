@@ -55,6 +55,8 @@
 - 项目管理与IT架构 🧱
   - [阿里云积累](/workstudy/workstudy_Internet/workstudy_DMZ.md)
   - [盘古踩坑积累](/workstudy/workstudy_dev/workstudy_dev.md)
+  - [阿里云ACP云计算](/workstudy/workstudy_acp/ACP云计算(一).md)
+  - [银行从业证法律法规](/workstudy/workstudy_bank/01_法律法规.md)
   - [面试积累](/workstudy/workstudy_interview/01_Java/Java面试(一).md)
 - 作者 🏆
   - [博客](https://blog.csdn.net/Augenstern_QXL)
