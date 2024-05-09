@@ -186,15 +186,33 @@ git remote set-url origin 新地址
 
 
 
+## 1.10、解决Github port 443 : Timed out
+
+在配置好如上进行代码推送，使用Clash开代理进行推送，会碰到443的问题。
+
+解决方法：
+
+1. 打开 设置 --> 网络与Internet --> 查找代理
+
+![](workstudy_dev.assets/9.png)
 
 
 
+如上图所示，地址与端口号为：127.0.0.1:7890
 
+2. 修改 Git 的网络设置
 
+```bash
+# 注意修改成自己的IP和端口号
+git config --global http.proxy http://127.0.0.1:7890 
+git config --global https.proxy http://127.0.0.1:7890
+```
 
-
-
-
+> 其实主要解决的是为啥搭建了梯子依旧不好使的问题。
+>
+> 参考：
+>
+> - https://zhuanlan.zhihu.com/p/636418854
 
 
 
