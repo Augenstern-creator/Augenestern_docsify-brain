@@ -147,7 +147,78 @@ spring:
 
 
 
-## 1.8、Docker删除网络报错
+## 1.8、jetbrains产品集成Github令牌失败
+
+在使用 jetbrains 产品集成Github令牌进行登录的时候也会出现链接失败的问题：
+
+- 解决方法：打开如图代理
+
+![](workstudy_dev.assets/8.png)
+
+
+
+
+
+
+
+
+
+## 1.9、jetbrains产品修改git远程仓库地址
+
+在使用 jetbrains 产品进行修改 git 远程仓库地址时，会出现一直连接不上远程仓库的问题，这个时候就需要通过 git 命令进行修改了。
+
+1. 在进入项目文件夹的根目录下，右击选择【Git Bash Here】
+2. 输入命令`git remote -v`，查看git的远程仓库库地址
+
+```bash
+git remote -v
+```
+
+3. 输入命令`git remote set-url origin 新地址`替换成新地址
+
+```bash
+git remote set-url origin 新地址
+```
+
+4. 可再次输入命令`git remote -v`查看是否更新成功
+
+> 参考：https://blog.csdn.net/MagicalIT/article/details/128663614
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
