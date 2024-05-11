@@ -66,6 +66,7 @@
 - 扩展 🔮
   - [徽章](https://shields.io/)
   - [图标](https://favicon.io/favicon-converter/)
+  - [头像](https://cravatar.cn/)
   - [emoji](https://www.emojiall.com/zh-hans)
   - [logo](https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis)
   - [Color](https://html-color-codes.info/chinese/)
