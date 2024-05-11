@@ -88,6 +88,52 @@ Vercel 支持从 GitHub、GitLab 或 Bitbucket 等代码仓库直接部署，当
 
 
 
+# 2、Netlify
+
+## 2.1、注册
+
+1. 官网：https://linxiaoqin.netlify.app/#/
+
+2. 注册或者使用GitHub登录即可
+
+> 可能会遇到一些问题，都可以去社区提问，回复基本24h之内就有
+>
+> - https://answers.netlify.com/
+
+
+
+
+
+## 2.2、使用
+
+1.  import from Git
+
+![](opensource_tools.assets/8.png)
+
+
+
+2. 选择GitHub，之后会弹出一个让你授权的窗口，给 Netlify 授权后，就会自动读取你 GitHub 的仓库，选择仓库后进行部署
+
+![](opensource_tools.assets/9.png)
+
+
+
+![](opensource_tools.assets/10.png)
+
+
+
+
+
+3. 更改站点名称
+
+![](opensource_tools.assets/11.png)
+
+
+
+![](opensource_tools.assets/12.png)
+
+
+
 
 
 
