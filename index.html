@@ -6,10 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <!--51LA网站统计-->
+  <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+  <script>LA.init({id:"3IUJ8uqlkpJp27VE",ck:"3IUJ8uqlkpJp27VE",autoTrack:true})</script>
   <!--Theme-->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-
-
   <link rel="apple-touch-icon" sizes="180x180" href="./static/icon/favicon_io/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="./static/icon/favicon_io/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./static/icon/favicon_io/favicon-16x16.png">
@@ -143,6 +144,49 @@
         tabHeadings: true       // default
       },
 
+
+
+      // pdf嵌入
+      markdown: {
+        renderer: {
+          code: function (code, lang) {
+            if(lang === 'pdf'){
+              var pdf_renderer = function(code, lang, verify) {
+                function unique_id_generator(){
+                  function rand_gen(){
+                    return Math.floor((Math.random()+1) * 65536).toString(16).substring(1);
+                  }
+                  return rand_gen() + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + rand_gen() + rand_gen();
+                }
+                if(lang && !lang.localeCompare('pdf', 'en', {sensitivity: 'base'})){
+                  if(verify){
+                    return true;
+                  }else{
+                    var divId = "markdown_code_pdf_container_" + unique_id_generator().toString();
+                    var container_list = new Array();
+                    if(localStorage.getItem('pdf_container_list')){
+                      container_list = JSON.parse(localStorage.getItem('pdf_container_list'));
+                    }
+                    container_list.push({"pdf_location": code, "div_id": divId});
+                    localStorage.setItem('pdf_container_list', JSON.stringify(container_list));
+                    return (
+                        '<div style="margin-top:'+ PDF_MARGIN_TOP +'; margin-bottom:'+ PDF_MARGIN_BOTTOM +';" id="'+ divId +'">'
+                        + '<a href="'+ code + '"> Link </a> to ' + code +
+                        '</div>'
+                    );
+                  }
+                }
+                return false;
+              }
+              if(pdf_renderer(code, lang, true)){
+                return pdf_renderer(code, lang, false);
+              }
+            }else {
+              return this.origin.code.apply(this, arguments);
+            }
+          }
+        }
+      },
 
 
 
@@ -299,6 +343,10 @@
   <!--<script src="//cdn.jsdelivr.net/npm/docsify-corner/dist/docsify-corner.js"></script>-->
   <script src="static/js/docsify-corner.js"></script>
 
-
+  <!-- PDF嵌入 -->
+  <!--<script src="//cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script>-->
+  <script src="static/js/pdfobject.min.js"></script>
+  <!--<script src="//unpkg.com/docsify-pdf-embed-plugin/src/docsify-pdf-embed.js"></script>-->
+  <script src="static/js/docsify-pdf-embed.js"></script>
 </body>
 </html>
