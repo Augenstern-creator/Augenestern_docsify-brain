@@ -45,6 +45,7 @@
     - [DocsifyIcon](/config/DocsifyIcon.md)
     - [DocsifyEmoji](/config/DocsifyEmoji.md)
     - [DocsifySelection](/config/DocsifySelection.md)
+    - [WebCount](/config/WebCount.md)
   - [🍈 Plugins](./plugins/README.md)
     - [CodeHighLight](/plugins/CodeHighLight.md)
     - [CopyCode](/plugins/CopyCode.md)
