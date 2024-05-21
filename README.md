@@ -42,6 +42,43 @@
 
 ![](/static/img/carbon.png) 
 
+<br>
+
+```charty
+{
+  "type":    "radar",
+  "options": {
+    "legend":  true,
+    "labels":  true,
+    "numbers": true
+  },
+  "data": [
+    {
+        "label": "2021",
+        "value": [60, 30, 45, 55, 50, 20, 30, 40],
+        "points": [
+            "创造者",
+            "观察者",
+            "激情主义者",
+            "挑战者",
+            "和平主义者",
+            "改革者",
+            "助人者",
+            "成就者"
+        ]
+    },
+    {
+        "label": "2023",
+        "value": [62, 32, 47, 57, 52, 22, 32, 42]
+    },
+    {
+        "label": "2024",
+        "value": [65, 33, 49, 59, 55, 25, 35, 45]
+    }
+  ]
+}
+```
+
 
 
 
@@ -236,6 +273,13 @@
   - [Docker(二)](/java/docker/02_Docker.md)
   - [Docker(三)](/java/docker/03_Docker.md)
   <!-- tabs:end -->
+
+
+
+
+
+
+
 
 
 

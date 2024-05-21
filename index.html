@@ -39,6 +39,9 @@
   <!--vite主题-->
   <!--<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/LIGMATV/docsify-vite-coverpage@main/docsify-vite-coverpage.css">-->
 
+  <!--图表-->
+  <!--<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@markbattistella/docsify-charty@latest/dist/docsify-charty.min.css">-->
+  <link rel="stylesheet" href="static/css/docsify-charty.min.css">
   <!--自定义CSS-->
   <link rel="stylesheet" href="./static/docsifyPlus.css">
 
@@ -155,6 +158,27 @@
         theme      : 'classic', // default
         tabComments: true,      // default
         tabHeadings: true       // default
+      },
+      //图表
+      charty: {
+        "theme": "#FE2E2E",
+        "mode":  "dark",
+        "debug": false
+      },
+      chat: {
+        // 聊天标题
+        title: '聊天记录',
+        // 设置头像
+        users: [
+          { nickname: '秦闪闪', avatar: 'https://cravatar.cn/avatar/B2E8F65D488EB8D1EB7695146B3EF4D2' },
+          { nickname: '贾队长', avatar: 'https://cravatar.cn/avatar/A5EB1010849165DD9EECF81E95ED21A9' },
+        ],
+        // 在右侧显示消息（自己发出的）
+        myself: '秦闪闪',
+        // 动画延时 （毫秒）
+        animation: 2000,
+        // 面板导航栏风格，支持 "mac" 与 "windows"
+        os: 'mac',
       },
 
 
@@ -366,5 +390,13 @@
   <!--暗黑模式-->
   <!--<script src="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/index.min.js"></script>-->
   <script src="static/js/darkMode.js"></script>
+
+  <!--图表-->
+  <!--<script src="//cdn.jsdelivr.net/npm/@markbattistella/docsify-charty@latest"></script>-->
+  <script src="static/js/docsify-charty.js"></script>
+
+  <!-- Docsify Chat -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-chat/lib/docsify-chat.min.js"></script>
+
 </body>
 </html>

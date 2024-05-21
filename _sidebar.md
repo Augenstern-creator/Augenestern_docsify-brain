@@ -70,6 +70,7 @@
     - [DocsifyDorner](/plugins/DocsifyDorner.md)
     - [DocsifyPDF](/plugins/DocsifyPDF.md)
     - [DocsifyDarkMode](/plugins/DocsifyDarkMode.md)
+    - [DocsifyCharty](/plugins/DocsifyCharty.md)
   - [🍉 Buger](/Buger/README.md)
     - [DocsifyNavBar](/Buger/DocsifyNavBar.md)
     - [DocsifyInclined](/Buger/DocsifyInclined.md)
