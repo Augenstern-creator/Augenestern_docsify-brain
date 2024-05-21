@@ -9,18 +9,6 @@
   <!--51LA网站统计-->
   <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
   <script>LA.init({id:"3IUJ8uqlkpJp27VE",ck:"3IUJ8uqlkpJp27VE",autoTrack:true})</script>
-  <!--百度统计-->
-  <script>
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?04f1a8c3d31f847e87da924bea57a5b9";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-  </script>
-
-  <!--<script src="https://unpkg.com/docsify-baidu-tj@1.0.2/dist/docsify-baidu-tj.min.js"></script>-->
   <!--Theme-->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <link rel="apple-touch-icon" sizes="180x180" href="./static/icon/favicon_io/apple-touch-icon.png">
@@ -39,6 +27,17 @@
 
   <!--LaTeX-->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
+  <!--暗黑模式-->
+  <!--<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/style.min.css"/>-->
+  <link rel="stylesheet" href="static/css/darkMode.css">
+
+  <!--增强默认主题-->
+  <!--<link-->
+  <!--        rel="stylesheet"-->
+  <!--        href="//cdn.jsdelivr.net/npm/docsify-enhanced-theme@latest/dist/style.css"-->
+  <!--/>-->
+  <!--vite主题-->
+  <!--<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/LIGMATV/docsify-vite-coverpage@main/docsify-vite-coverpage.css">-->
 
   <!--自定义CSS-->
   <link rel="stylesheet" href="./static/docsifyPlus.css">
@@ -62,6 +61,8 @@
         // the default preset icon in docsify-corner
         icon: "gitlab",
       },
+      // dark mode
+      themeColor: "#42b983",
       // 路由模式
       routerMode: 'hash',
       // 开启侧边栏
@@ -155,8 +156,7 @@
         tabComments: true,      // default
         tabHeadings: true       // default
       },
-      // 百度统计ID
-      //baiduTjId: "04f1a8c3d31f847e87da924bea57a5b9",
+
 
 
 
@@ -362,5 +362,9 @@
   <script src="static/js/pdfobject.min.js"></script>
   <!--<script src="//unpkg.com/docsify-pdf-embed-plugin/src/docsify-pdf-embed.js"></script>-->
   <script src="static/js/docsify-pdf-embed.js"></script>
+
+  <!--暗黑模式-->
+  <!--<script src="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/index.min.js"></script>-->
+  <script src="static/js/darkMode.js"></script>
 </body>
 </html>

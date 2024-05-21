@@ -69,6 +69,7 @@
     - [DocsifyValine](/plugins/DocsifyValine.md)
     - [DocsifyDorner](/plugins/DocsifyDorner.md)
     - [DocsifyPDF](/plugins/DocsifyPDF.md)
+    - [DocsifyDarkMode](/plugins/DocsifyDarkMode.md)
   - [🍉 Buger](/Buger/README.md)
     - [DocsifyNavBar](/Buger/DocsifyNavBar.md)
     - [DocsifyInclined](/Buger/DocsifyInclined.md)

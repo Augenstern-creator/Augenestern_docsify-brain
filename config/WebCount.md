@@ -24,36 +24,5 @@
 
 
 
-## 1.2、百度统计
 
-1. 进入百度统计：https://tongji.baidu.com/
-
-2. 注册登录
-3. 新建网站
-
-![](WebCount.assets/4.png)
-
-
-
-4. 获取到申请的id
-
-![](WebCount.assets/5.png)
-
-
-
-
-
-5. 在index.html配置
-
-```html
-<script>
-window.$docsify = {
-  // 百度统计ID
-  baiduTjId: "xxxxxxx",
-}
-</script>
-
-<!-- body -->
-<script src="https://unpkg.com/docsify-baidu-tj@1.0.2/dist/docsify-baidu-tj.min.js"></script>
-```
 
