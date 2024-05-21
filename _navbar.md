@@ -62,7 +62,8 @@
   - [博客](https://blog.csdn.net/Augenstern_QXL)
   - [Gitee](https://gitee.com/Augenstern-creator)
   - [GitHub](https://github.com/Augenstern-creator)
-  - [仓库说明](/README.md)
+  - [关于本站](/README.md)
+  - [Dear](https://github.com/sxin0/docsify-termynal?tab=readme-ov-file)
 - 扩展 🔮
   - [徽章](https://shields.io/)
   - [图标](https://favicon.io/favicon-converter/)
