@@ -1,25 +1,18 @@
 # 1
 
-<!-- chat:start -->
+<div id="box">
+    <p>2 + 2 = {{ 2 + 2 }}</p>
+</div>
 
-#### **秦闪闪**
+<script type="text/javascript">
+    var box = new Vue({
+        el: '#box',
+        
+    })
+</script>
 
-八嘎 hentai 无路赛！
 
-#### **贾队长**
 
-多来点
 
-#### **秦闪闪**
 
-八嘎 hentai 无路赛！
 
-#### **秦闪闪**
-
-八嘎 hentai 无路赛！
-
-#### **秦闪闪**
-
-八嘎 hentai 无路赛！
-
-<!-- chat:end -->
