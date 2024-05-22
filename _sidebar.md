@@ -75,3 +75,4 @@
   - [🍉 Buger](/Buger/README.md)
     - [DocsifyNavBar](/Buger/DocsifyNavBar.md)
     - [DocsifyInclined](/Buger/DocsifyInclined.md)
+    - [秦闪闪❤贾队长](/Buger/DocsifyDear.md)

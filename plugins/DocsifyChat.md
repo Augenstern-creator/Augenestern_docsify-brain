@@ -30,24 +30,7 @@
 ```
 
 
-3. 使用
-使用标题 + 粗体标记在聊天面板中定义消息,标题文本将被用作用户昵称，后续所有内容都将视为对话框内容，直到下一个标题或 chat:end 标记结束
-```markdown
-<!-- chat:start -->
-
-#### **yuki**
-
-hello
-
-#### **kokkoro**
-
-hello world
-
-<!-- chat:end -->
-```
-
-
-如果未指定用户头像，则默认情况下将显示昵称的首字母。
+3. 使用：查看官网
 
 <!-- chat:start -->
 
@@ -60,7 +43,6 @@ hello
 hello world
 
 <!-- chat:end -->
-
 
 > [!NOTE]
 > 官网：[DocsifyChat](https://github.com/xueelf/docsify-chat/blob/master/README.zh.md)
