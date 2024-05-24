@@ -42,6 +42,7 @@
   - [2、Node模块化与npm](/web/Node/02_尚硅谷Node.md)
   - [3、MongoDB数据库](/web/Node/03_尚硅谷Mongodb.md)
   - [4、接口与会话](/web/Node/04_尚硅谷Node.md)
+  - [5、pnpm包管理工具](/web/Node/05_pnpm.md)
 - 🍫 Vue3
   - [1、Vue3](/web/Vue3/Vue3(一).md)
   - [2、Vue3组件](/web/Vue3/Vue3(二).md)
