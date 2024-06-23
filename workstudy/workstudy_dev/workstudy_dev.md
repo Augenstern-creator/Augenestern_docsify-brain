@@ -220,15 +220,33 @@ git config --global https.proxy http://127.0.0.1:7890
 
 
 
+## 1.11、解决Webstrom不识别`@`别名
+
+1. 设置 - 语言和框架 - JavaScript - Webpack
+
+![](workstudy_dev.assets/10.png)
+
+2. 在项目根目录下新建`webpack.config.js`
+
+```javascript
+const path = require('path')
+ 
+module.exports = {
+  context: path.resolve(__dirname, './'),
+  resolve: {
+    extensions: ['.js', '.vue', '.json'],
+    alias: {
+      '@/': path.resolve('src'),
+    }
+  }
+}
+```
 
 
 
+![](workstudy_dev.assets/11.png)
 
-
-
-
-
-
+这样就可以识别`@`别名路径啦！
 
 
 
