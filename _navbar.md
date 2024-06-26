@@ -63,7 +63,8 @@
   - [Gitee](https://gitee.com/Augenstern-creator)
   - [GitHub](https://github.com/Augenstern-creator)
   - [关于本站](/README.md)
-  - [Dear](/Buger/DocsifyDear.md)
+
+[comment]: <> (  - [Dear]&#40;/Buger/DocsifyDear.md&#41;)
 - 扩展 🔮
   - [徽章](https://shields.io/)
   - [图标](https://favicon.io/favicon-converter/)
