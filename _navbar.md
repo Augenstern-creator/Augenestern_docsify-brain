@@ -1,7 +1,10 @@
 - 开源轮子 🚀
   - [开源GitHub](/opensource/opensource_github/AI_GitHub.md)
   - [开源Tools](/opensource/opensource_tools/opensource_tools.md)
-
+  - [开源Projects]()
+    - [RuoYi不分离](/opensource/opensource_project/opensource_ruoyi_fast/若依不分离(一).md)
+    - [RuoYi分离](/opensource/opensource_project/opensource_ruoyi_vue/若依分离(一).md)
+    - [RuoYi微服务](/opensource/opensource_project/opensource_ruoyi_vue/若依分离(一).md)
 - 计算机基础 🎈
   - [数据结构](/cs408/DataStructure/王道绪论.md)
   - [计算机组成原理](/cs408/ComputerComposition/王道计组第一章(一).md)

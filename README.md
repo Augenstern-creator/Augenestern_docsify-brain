@@ -236,15 +236,7 @@
     - [6、SpringBoot(六)](/java/springboot/三更SpringBoot(六).md)
 
 
-#### **编程工具**
 
-- [Nginx反向代理](/uTools/Nginx/狂神说Nginx.md)
-- [Swagger接口规范](/uTools/Swagger/01_Swagger.md)
-- [Git](/uTools/Git/尚硅谷Git.md)
-    - [Git(二)](/uTools/Git/尚硅谷Git(二).md)
-    - [Git(三)](/uTools/Git/尚硅谷Git(三).md)
-    - [Git(四)](/uTools/Git/尚硅谷Git(四).md)
-- [GitHub美化](/uTools/GitHub/Github美化.md)
 
 
 #### **微服务体系**
@@ -272,6 +264,22 @@
 - [Docker(一)](/java/docker/01_Docker.md)
   - [Docker(二)](/java/docker/02_Docker.md)
   - [Docker(三)](/java/docker/03_Docker.md)
+
+
+#### **编程工具**
+
+- [Nginx反向代理](/uTools/Nginx/狂神说Nginx.md)
+- [Swagger接口规范](/uTools/Swagger/01_Swagger.md)
+- [Git](/uTools/Git/尚硅谷Git.md)
+  - [Git(二)](/uTools/Git/尚硅谷Git(二).md)
+  - [Git(三)](/uTools/Git/尚硅谷Git(三).md)
+  - [Git(四)](/uTools/Git/尚硅谷Git(四).md)
+- [GitHub美化](/uTools/GitHub/Github美化.md)
+
+
+
+
+
   <!-- tabs:end -->
 
 
