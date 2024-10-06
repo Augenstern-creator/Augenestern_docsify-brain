@@ -24,7 +24,7 @@ npm install -g pnpm
 pnpm get registry
 
 # 配置镜像
-pnpm set registry https://registry.npm.taobao.org
+pnpm config set registry https://registry.npmmirror.com
 ```
 
 3. 验证

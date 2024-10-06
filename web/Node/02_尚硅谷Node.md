@@ -561,8 +561,8 @@ root: D:\Develop\nvm
 path: D:\Develop\nodejs
 
 
-node_mirror: https://npm.taobao.org/mirrors/node/
-npm_mirror: https://npm.taobao.org/mirrors/npm/
+node_mirror: https://npmmirror.com/mirrors/node/
+npm_mirror: https://npmmirror.com/mirrors/node/
 ```
 
 3. 然后打开命令行窗口
