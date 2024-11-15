@@ -58,10 +58,9 @@
   - [阿里云ACP云计算](/workstudy/workstudy_acp/ACP云计算(一).md)
   - [银行从业证法律法规](/workstudy/workstudy_bank/01_法律法规.md)
   - [面试积累](/workstudy/workstudy_interview/01_Java/Java面试(一).md)
-  - [开源Projects]()
-    - [RuoYi不分离](/opensource/opensource_project/opensource_ruoyi_fast/若依不分离(一).md)
-    - [RuoYi分离](/opensource/opensource_project/opensource_ruoyi_vue/若依分离(一).md)
-    - [RuoYi微服务](/opensource/opensource_project/opensource_ruoyi_vue/若依分离(一).md)
+  - [RuoYi——不分离](/opensource/opensource_project/opensource_ruoyi_fast/若依不分离(一).md)
+  - [RuoYi——分离](/opensource/opensource_project/opensource_ruoyi_vue/若依分离(一).md)
+  - [RuoYi——微服务](/opensource/opensource_project/opensource_ruoyi_vue/若依分离(一).md)
 - 作者 🏆
   - [博客](https://blog.csdn.net/Augenstern_QXL)
   - [Gitee](https://gitee.com/Augenstern-creator)
