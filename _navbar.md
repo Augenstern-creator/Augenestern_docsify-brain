@@ -65,8 +65,10 @@
 - 作者 🏆
   - [博客](https://blog.csdn.net/Augenstern_QXL)
   - [Gitee](https://gitee.com/Augenstern-creator)
-  - [GitHub](https://github.com/Augenstern-creator)
   - [关于本站](/README.md)
+
+[//]: # (  - [GitHub]&#40;https://github.com/Augenstern-creator&#41;)
+  
 
 [comment]: <> (  - [Dear]&#40;/Buger/DocsifyDear.md&#41;)
 - 扩展 🔮
