@@ -54,6 +54,7 @@
   - [Docker](/java/docker/01_Docker.md)
 - 项目管理与IT架构 🧱
   - [杀死知识](/workstudy/workstudy_Internet/workstudy_Hunter.md)
+  - [智能知识平台](/workstudy/workstudy_Internet/workstudy_智能知识平台.md)
   - [阿里云积累](/workstudy/workstudy_Internet/workstudy_DMZ.md)
   - [盘古踩坑积累](/workstudy/workstudy_dev/workstudy_dev.md)
   - [阿里云ACP云计算](/workstudy/workstudy_acp/ACP云计算(一).md)
