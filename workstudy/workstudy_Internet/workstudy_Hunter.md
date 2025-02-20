@@ -79,6 +79,127 @@ x86和arm架构是两种主流的CPU处理器架构，x86架构是由Intel开发
 
 
 
+## 1.6、dig命令域名查询工具
+
+`dig`命令用于可以探测域名系统工作是否正常。
+
+1. 目前官网已不支持Windows，Linux中安装如下：
+
+```bash
+yum install bind-utils -y
+```
+
+dig命令的作用很多：
+
+- 查询域名的A记录（IPv4地址）
+- 查询域名的AAAA记录（IPv6地址）
+- 查询域名的MX记录（邮件服务器）
+- 查询域名的NS记录（域名服务器）
+- 查询域名的TXT记录（文本信息）
+- 查询域名的CNAME记录（别名）
+- 查询域名的SOA记录（授权起始记录）
+- 查询域名的PTR记录（反向DNS查询）
+- 查询域名的DNS解析路径
+
+1. 查询域名的A记录（IPv4地址）
+
+```bash
+# 查询域名的A记录
+dig aliyun.com
+```
+
+结果如下：
+
+```bash
+# dig的版本号和查询的域名
+; <<>> DiG 9.11.4-P2-RedHat-9.11.4-26.P2.el7_9.16 <<>> aliyun.com
+# 显示全局选项（如 +cmd 表示显示命令行信息）
+;; global options: +cmd
+
+
+;; Got answer:   # 表示收到了 DNS 服务器的响应
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 53961
+;; flags: qr rd ra; QUERY: 1, ANSWER: 6, AUTHORITY: 0, ADDITIONAL: 0
+
+
+;; QUESTION SECTION:
+# 查询的域名、查询的类别(通常是IN)、查询的记录类型，这里是A记录（IPv4地址）
+;aliyun.com.                    IN      A
+
+# 重点看回答部分
+;; ANSWER SECTION:
+# 查询的域名、TTL(记录缓存时间)、记录类别、A记录、查询到的IPv4地址
+aliyun.com.             5       IN      A       106.11.172.9
+aliyun.com.             5       IN      A       140.205.135.3
+aliyun.com.             5       IN      A       106.11.249.99
+aliyun.com.             5       IN      A       106.11.253.83
+aliyun.com.             5       IN      A       140.205.60.46
+aliyun.com.             5       IN      A       106.11.248.146
+
+# 查询耗时
+;; Query time: 39 msec
+# 使用的DNS服务器地址和端口
+;; SERVER: 192.168.6.2#53(192.168.6.2)
+;; WHEN: 三 2月 12 16:49:32 CST 2025
+;; MSG SIZE  rcvd: 124
+```
+
+
+
+2. 查询域名的的NS记录
+   - NS(Name Server记录)，就是指定哪个DNS服务器来解析该域名的记录。NS记录通常由域名注册商设置，用于将**域名和DNS服务器关联起来。**
+
+```bash
+dig chinagfb.com ns
+```
+
+结果如下：
+
+```bash
+; <<>> DiG 9.11.4-P2-RedHat-9.11.4-26.P2.el7_9.16 <<>> chinagfb.com ns
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 19600
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 22
+
+;; QUESTION SECTION:
+;chinagfb.com.                  IN      NS
+
+# 重点看回答部分
+;; ANSWER SECTION:
+# 查询的域名、TTL(记录缓存时间)、记录类别、NS记录、dns服务器的地址
+chinagfb.com.           5       IN      NS      vip3.alidns.com.
+chinagfb.com.           5       IN      NS      vip4.alidns.com.
+
+;; ADDITIONAL SECTION:
+vip3.alidns.com.        5       IN      A       170.33.80.10
+vip3.alidns.com.        5       IN      A       8.129.152.245
+vip3.alidns.com.        5       IN      A       8.212.93.3
+vip3.alidns.com.        5       IN      A       39.103.26.212
+vip3.alidns.com.        5       IN      A       47.116.84.178
+vip3.alidns.com.        5       IN      A       121.40.6.163
+vip3.alidns.com.        5       IN      A       140.205.1.5
+vip3.alidns.com.        5       IN      A       170.33.32.210
+vip3.alidns.com.        5       IN      A       170.33.40.136
+vip3.alidns.com.        5       IN      A       170.33.73.26
+vip4.alidns.com.        5       IN      A       170.33.80.11
+vip4.alidns.com.        5       IN      A       8.129.152.246
+vip4.alidns.com.        5       IN      A       8.212.93.4
+vip4.alidns.com.        5       IN      A       39.103.26.213
+vip4.alidns.com.        5       IN      A       47.116.84.179
+vip4.alidns.com.        5       IN      A       121.40.6.164
+vip4.alidns.com.        5       IN      A       140.205.1.6
+vip4.alidns.com.        5       IN      A       170.33.32.211
+vip4.alidns.com.        5       IN      A       170.33.40.137
+vip4.alidns.com.        5       IN      A       170.33.73.27
+vip3.alidns.com.        5       IN      AAAA    2408:4009:500::3
+vip4.alidns.com.        5       IN      AAAA    2408:4009:500::4
+
+;; Query time: 30 msec
+;; SERVER: 192.168.6.2#53(192.168.6.2)
+;; WHEN: 三 2月 12 17:29:55 CST 2025
+;; MSG SIZE  rcvd: 451
+```
 
 
 
@@ -86,6 +207,11 @@ x86和arm架构是两种主流的CPU处理器架构，x86架构是由Intel开发
 
 
 
+## 1.7、高可用HA
+
+高可用HA（High Availability）是分布式系统架构设计中必须考虑的因素之一，它通常是指，通过设计减少系统不能提供服务的时间。
+
+> [高可用演进方案（同城灾备、两地三中心、异地双活）](https://blog.csdn.net/sundehui01/article/details/123480266)：好文静心读！
 
 
 
@@ -93,19 +219,13 @@ x86和arm架构是两种主流的CPU处理器架构，x86架构是由Intel开发
 
 
 
+## 1.8、A记录 ，CNAME，NS、泛域名和泛解析
 
+- A记录：A（Address）记录是用来指定**域名对应的IP地址记录**。
+- NS记录： NS（Name Server）记录是**域名服务器记录**，用来**指定该域名由哪个DNS服务器来进行解析**。**每个注册的域名都是由一个DNS域名服务器来进行解析的**，DNS服务器NS记录地址一般以以下的形式出现： ns1.domain.com、ns2.domain.com等。 简单的说，**NS记录是指定由哪个DNS服务器解析你的域名**。 
+- CNAME记录：CNAME（Canonical Name ）别名记录，允许您将多个名字映射到同一台计算机。通常用于同时提供WWW和MAIL服务的计算机。例如，有一台计算机名为 `host.mydomain.com`（A记录），它同时提供WWW和MAIL服务，为了便于用户访问服务。可以为该计算机设置两个别名（CNAME）：WWW和MAIL， 这两个别名的全称就是`www.mydomain.com`和`mail.mydomain.com`，实际上他们都指向 `host.mydomain.com`。
 
-
-
-
-
-
-
-
-
-
-
-
+- 泛域名是指在一个域名根下，以 `*.Domain.com`的形式表示这个域名根所有未建立的子域名。 泛解析是把`*.Domain.com`的A记录解析到某个IP地址上，通过访问任意的`前缀.domain.com`都能访问到你解析的站点上。 
 
 
 
