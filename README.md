@@ -74,6 +74,10 @@
     {
         "label": "2024",
         "value": [65, 33, 49, 59, 55, 25, 35, 45]
+    },
+    {
+        "label": "2025",
+        "value": [70, 40, 50, 60, 60, 30, 40, 45]
     }
   ]
 }
@@ -95,7 +99,7 @@
 
 <!-- tabs:start -->
 
-#### **计算机基础综合**
+#### **408计算机基础综合**
 - [🍬 ComputerComposition](/cs408/ComputerComposition/)
   - [🍦 计算机组成原理第一章](/cs408/ComputerComposition/王道计组第一章(一).md)
   - [🍧 计算机组成原理第二章](/cs408/ComputerComposition/计组第二章.md)
@@ -192,90 +196,112 @@
 
 #### **Java仓库**
 
-- [JavaSE](/java/)
-    - [1、Java环境搭建](/java/javase/00.java环境搭建.md)
-    - [2、Java基础总结](/java/javase/00_java基础大总结.md)
-    - [3、Java继承](/java/javase/01_Java继承.md)
-    - [4、Java接口和内部类](/java/javase/02_Java_接口和内部类.md)
-    - [5、Java多态和内部类](/java/javase/03_Java_多态和内部类.md)
-    - [6、Java常用API与Collection集合](/java/javase/04_Java_常用API与Collection集合.md)
-    - [7、Java迭代器与List、Set集合](/java/javase/05_Java_迭代器与List、Set集合.md)
-    - [8、Java Map集合](/java/javase/06_Java_Map集合.md)
-    - [9、Java异常与线程](/java/javase/07_Java_异常与线程.md)
-    - [10、Java线程池与并发](/java/javase/08_Java_线程池与并发.md)
-    - [11、Java Stream流与字节流](/java/javase/09_Java_Stream流与字节流.md)
-    - [12、Java各种流与属性集](/java/javase/10_Java_各种流与属性集.md)
-    - [13、Java网络编程与NI0](/java/javase/11_Java_网络编程与NIO.md)
-    - [14、Java注解反射与动态代理](/java/javase/12_Java_注解反射与动态代理.md)
-    - [15、Java XML和Dom4j](/java/javase/13_Java_XML和Dom4j.md)
-- [MySQL](/java/mysql/黑马MySQL(一).md)
-    - [MySQL(二)](/java/mysql/黑马MySQL(二).md)
-    - [MySQL(三)](/java/mysql/黑马MySQL(三).md)
-    - [MySQL(四)](/java/mysql/黑马MySQL(四).md)
-- [JDBC](/java/jdbc/狂神说JDBC.md)
-- [JavaWeb](/java/javaweb/狂神说Tomcat.md)
-    - [2、狂神说Servlet](/java/javaweb/狂神说Servlet.md)
-    - [3、狂神说cookie和session](/java/javaweb/cookie和session.md)
-    - [4、狂神说filter和listener](/java/javaweb/过滤器和监听器.md)
-    - [5、狂神说JSP](/java/javaweb/狂神说JSP.md)
-- [JavaEE](/java/javaee/传智spring(一).md)
-    - [2、Spring(二)](/java/javaee/传智spring(二).md)
-    - [3、Spring(三)](/java/javaee/传智spring(三).md)
-    - [4、MyBatis(一)](/java/javaee/传智mybatis.md)
-    - [5、MyBatis(二)](/java/javaee/传智mybatis(二).md)
-    - [6、SpringMVC(一)](/java/javaee/传智springMVC.md)
-    - [7、SpringMVC(二)](/java/javaee/传智springMVC(二).md)
-    - [8、SpringMVC(三)](/java/javaee/传智springMVC(三).md)
-    - [9、SSM整合](/java/javaee/SSM整合.md)
-    - [10、jQuery.ajax](/java/javaee/SSM框架课程扩展之Ajax学习.md)
-- [SpringBoot](/java/springboot/三更SpringBoot(一).md)
-    - [2、SpringBoot(二)](/java/springboot/三更SpringBoot(二).md)
-    - [3、SpringBoot(三)](/java/springboot/三更SpringBoot(三).md)
-    - [4、SpringBoot(四)](/java/springboot/三更SpringBoot(四).md)
-    - [5、SpringBoot(五)](/java/springboot/三更SpringBoot(五).md)
-    - [6、SpringBoot(六)](/java/springboot/三更SpringBoot(六).md)
-
+- [1、JavaSE](/java/)
+    - [1.1、Java环境搭建](/java/javase/00.java环境搭建.md)
+    - [1.2、Java基础总结](/java/javase/00_java基础大总结.md)
+    - [1.3、Java继承](/java/javase/01_Java继承.md)
+    - [1.4、Java接口和内部类](/java/javase/02_Java_接口和内部类.md)
+    - [1.5、Java多态和内部类](/java/javase/03_Java_多态和内部类.md)
+    - [1.6、Java常用API与Collection集合](/java/javase/04_Java_常用API与Collection集合.md)
+    - [1.7、Java迭代器与List、Set集合](/java/javase/05_Java_迭代器与List、Set集合.md)
+    - [1.8、Java Map集合](/java/javase/06_Java_Map集合.md)
+    - [1.9、Java异常与线程](/java/javase/07_Java_异常与线程.md)
+    - [1.10、Java线程池与并发](/java/javase/08_Java_线程池与并发.md)
+    - [1.11、Java Stream流与字节流](/java/javase/09_Java_Stream流与字节流.md)
+    - [1.12、Java各种流与属性集](/java/javase/10_Java_各种流与属性集.md)
+    - [1.13、Java网络编程与NI0](/java/javase/11_Java_网络编程与NIO.md)
+    - [1.14、Java注解反射与动态代理](/java/javase/12_Java_注解反射与动态代理.md)
+    - [1.15、Java XML和Dom4j](/java/javase/13_Java_XML和Dom4j.md)
+- [2、MySQL基础环境集成](/java/mysql/黑马MySQL(一).md)
+    - [2.1、DDL和DQL](/java/mysql/黑马MySQL(二).md)
+    - [2.2、DQL语句练习与正则表达式](/java/mysql/黑马MySQL(三).md)
+    - [2.3、多表操作🔥](/java/mysql/黑马MySQL(四).md)
+- [3、JDBC](/java/jdbc/狂神说JDBC.md)
+- [4、JavaWeb之Tomcat](/java/javaweb/狂神说Tomcat.md)
+    - [4.1、狂神说Servlet](/java/javaweb/狂神说Servlet.md)
+    - [4.2、狂神说cookie和session](/java/javaweb/cookie和session.md)
+    - [4.3、狂神说filter和listener](/java/javaweb/过滤器和监听器.md)
+    - [4.4、狂神说JSP](/java/javaweb/狂神说JSP.md)
+- [5、JavaEE](/java/javaee/传智spring(一).md)
+    - [5.1、Spring面向切面编程AOP](/java/javaee/传智spring(二).md)
+    - [5.2、Spring JdbcTemplate](/java/javaee/传智spring(三).md)
+    - [5.3、MyBatis开发方式与API](/java/javaee/传智mybatis.md)
+    - [5.4、MyBatis多表操作与缓存](/java/javaee/传智mybatis(二).md)
+    - [5.5、SpringMVC注解开发](/java/javaee/传智springMVC.md)
+    - [5.6、SpringMVC视图解析器与RestFul](/java/javaee/传智springMVC(二).md)
+    - [5.7、SpringMVC拦截器与异常器](/java/javaee/传智springMVC(三).md)
+    - [5.8、SSM整合](/java/javaee/SSM整合.md)
+    - [5.9、jQuery.ajax](/java/javaee/SSM框架课程扩展之Ajax学习.md)
+- [6、SpringBoot](/java/springboot/三更SpringBoot(一).md)
+    - [6.1、SpringBoot整合Mybatis](/java/springboot/三更SpringBoot(二).md)
+    - [6.2、SpringBoot实现 Web 常用功能](/java/springboot/三更SpringBoot(三).md)
+    - [6.3、SpringBoot拦截器与AOP](/java/springboot/三更SpringBoot(四).md)
+    - [6.4、SpringBoot自动装配与模板引擎Thymeleaf](/java/springboot/三更SpringBoot(五).md)
+    - [6.5、SpringBoot核心配置](/java/springboot/三更SpringBoot(六).md)
+- [7、Swagger接口规范](/java/Swagger/01_Swagger.md)
 
 
 
 
 #### **微服务体系**
 
-- [Redis 🌍](/java/redis/redis(一).md)
-    - [Redis(二)](/java/redis/redis(二).md)
-    - [Redis(三)](/java/redis/redis(三).md)
+- [0、Nginx反向代理与负载均衡策略](/uTools/Nginx/狂神说Nginx.md)
+- [1、Redis基础环境集成 🌍](/java/redis/redis(一).md)
+    - [1.2、Redis全局命令与SpringBoot整合Redis](/java/redis/redis(二).md)
+    - [1.3、Redis主从复制、缓存雪崩、缓存击穿、缓存穿透](/java/redis/redis(三).md)
 
-- [MyBatisPlus](/java/mybatisplus/01-MybatisPlus-基础篇.md)
-- [ 深入浅出Linux操作系统虚拟机环境下载安装(一)](/java/linux/韩顺平Linux.md)
-    - [深入浅出Linux操作系统指令与目录结构(二)](/java/linux/韩顺平Linux(二).md)
-    - [深入浅出Linux操作系统权限管理与网络配置(三)](/java/linux/韩顺平Linux(三).md)
-    - [深入浅出Linux操作系统进程管理与rpm包管理(四)](/java/linux/韩顺平Linux(四).md)
-    - [深入浅出Linux操作系统搭建JavaEE环境(五)](/java/linux/韩顺平Linux(五).md)
-    - [深入浅出Linux操作系统宝塔疑难杂症篇(六)](/java/linux/韩顺平Linux(六).md)
-    - [深入浅出Linux操作系统大数据定制Shell编程(七)](/java/linux/韩顺平Linux(七).md)
-    - [深入浅出Linux操作系统Python定制篇Ubuntu(八)](/java/linux/韩顺平Linux(八).md)
-    - [深入浅出Linux操作系统日志管理与备份恢复(九)](/java/linux/韩顺平Linux(九).md)
+- [2、MyBatisPlus](/java/mybatisplus/01-MybatisPlus-基础篇.md)
+- [3、深入浅出Linux操作系统虚拟机环境下载安装(一)](/java/linux/韩顺平Linux.md)
+    - [3.2、深入浅出Linux操作系统指令与目录结构(二)](/java/linux/韩顺平Linux(二).md)
+    - [3.3、深入浅出Linux操作系统权限管理与网络配置(三)](/java/linux/韩顺平Linux(三).md)
+    - [3.4、深入浅出Linux操作系统进程管理与rpm包管理(四)](/java/linux/韩顺平Linux(四).md)
+    - [3.5、深入浅出Linux操作系统搭建JavaEE环境(五)](/java/linux/韩顺平Linux(五).md)
+    - [3.6、深入浅出Linux操作系统宝塔疑难杂症篇(六)](/java/linux/韩顺平Linux(六).md)
+    - [3.7、深入浅出Linux操作系统大数据定制Shell编程(七)](/java/linux/韩顺平Linux(七).md)
+    - [3.8、深入浅出Linux操作系统Python定制篇Ubuntu(八)](/java/linux/韩顺平Linux(八).md)
+    - [3.9、深入浅出Linux操作系统日志管理与备份恢复(九)](/java/linux/韩顺平Linux(九).md)
 
-- [SpringCloud](/java/springcloud/SpringCloud(一).md)
-  - [注册中心Eureka](/java/springcloud/SpringCloud(一).md?id=_3、eureka注册中心)
-  - [负载均衡Ribbon](/java/springcloud/SpringCloud(一).md?id=_4、ribbon负载均衡)
-  - [注册中心Nacos](/java/springcloud/SpringCloud(一).md?id=_5、nacos注册中心)
-  - [远程调用Feign](/java/springcloud/SpringCloud(二).md?id=_2、feign远程调用)
-  - [服务网关Gateway](/java/springcloud/SpringCloud(二).md?id=_3、gateway服务网关)
-- [Docker(一)](/java/docker/01_Docker.md)
-  - [Docker(二)](/java/docker/02_Docker.md)
-  - [Docker(三)](/java/docker/03_Docker.md)
+- [4、SpringBoot整合Shiro](/java/springcloud/SpringCloud(一).md)
+  - [4.1、Shiro整合EhCache](/java/springcloud/SpringCloud(一).md?id=_3、eureka注册中心)
 
 
-#### **编程工具**
+- [5、SpringCloud](/java/springcloud/SpringCloud(一).md)
+  - [5.1、注册中心Eureka](/java/springcloud/SpringCloud(一).md?id=_3、eureka注册中心)
+  - [5.2、负载均衡Ribbon](/java/springcloud/SpringCloud(一).md?id=_4、ribbon负载均衡)
+  - [5.3、注册中心Nacos](/java/springcloud/SpringCloud(一).md?id=_5、nacos注册中心)
+  - [5.4、远程调用Feign](/java/springcloud/SpringCloud(二).md?id=_2、feign远程调用)
+  - [5.5、服务网关Gateway](/java/springcloud/SpringCloud(二).md?id=_3、gateway服务网关)
 
-- [Nginx反向代理](/uTools/Nginx/狂神说Nginx.md)
-- [Swagger接口规范](/uTools/Swagger/01_Swagger.md)
-- [Git](/uTools/Git/尚硅谷Git.md)
-  - [Git(二)](/uTools/Git/尚硅谷Git(二).md)
-  - [Git(三)](/uTools/Git/尚硅谷Git(三).md)
-  - [Git(四)](/uTools/Git/尚硅谷Git(四).md)
-- [GitHub美化](/uTools/GitHub/Github美化.md)
+- [6、消息队列RabbitMQ](/java/rabbitmq/RabbitMQ(一).md)
+
+
+- [7、Docker基础环境集成](/java/docker/01_Docker.md)
+  - [7.1、Dockerfile与DockerCompose](/java/docker/02_Docker.md)
+  - [7.2、Docker真实项目部署案例](/java/docker/03_Docker.md)
+
+
+- [8、一文搞懂Zookeeper](/java/Zookeeper/Zookeeper(一).md)
+
+
+#### **云原生**
+
+- [1、Git](/java/Git/尚硅谷Git.md)
+  - [1.1、Git(二)](/java/Git/尚硅谷Git(二).md)
+  - [1.2、Git(三)](/java/Git/尚硅谷Git(三).md)
+  - [1.3、Git(四)](/java/Git/尚硅谷Git(四).md)
+- [2、GitHub美化](/java/GitHub/Github美化.md)
+
+
+
+
+#### **糊涂工具**
+
+
+- [1、Git](/java/Git/尚硅谷Git.md)
+  - [1.1、Git(二)](/java/Git/尚硅谷Git(二).md)
+  - [1.2、Git(三)](/java/Git/尚硅谷Git(三).md)
+  - [1.3、Git(四)](/java/Git/尚硅谷Git(四).md)
+- [2、GitHub美化](/java/GitHub/Github美化.md)
 
 
 
