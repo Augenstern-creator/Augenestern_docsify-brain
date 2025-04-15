@@ -40,48 +40,6 @@
 > <br>
 
 
-![](/static/img/carbon.png) 
-
-<br>
-
-```charty
-{
-  "type":    "radar",
-  "options": {
-    "legend":  true,
-    "labels":  true,
-    "numbers": true
-  },
-  "data": [
-    {
-        "label": "2021",
-        "value": [60, 30, 45, 55, 50, 20, 30, 40],
-        "points": [
-            "创造者",
-            "观察者",
-            "激情主义者",
-            "挑战者",
-            "和平主义者",
-            "改革者",
-            "助人者",
-            "成就者"
-        ]
-    },
-    {
-        "label": "2023",
-        "value": [62, 32, 47, 57, 52, 22, 32, 42]
-    },
-    {
-        "label": "2024",
-        "value": [65, 33, 49, 59, 55, 25, 35, 45]
-    },
-    {
-        "label": "2025",
-        "value": [70, 40, 50, 60, 60, 30, 40, 45]
-    }
-  ]
-}
-```
 
 
 
@@ -239,7 +197,11 @@
     - [6.4、SpringBoot自动装配与模板引擎Thymeleaf](/java/springboot/三更SpringBoot(五).md)
     - [6.5、SpringBoot核心配置](/java/springboot/三更SpringBoot(六).md)
 - [7、Swagger接口规范](/java/Swagger/01_Swagger.md)
-
+- [8、Hutool工具框架](/java/Hutool/Hutool(一).md)
+  - [8.2、Hutool文件与资源工具类](/java/Hutool/Hutool(二).md)
+  - [8.3、Hutool数组与集合工具类](/java/Hutool/Hutool(三).md)
+  - [8.4、Hutool加密与脱敏工具类](/java/Hutool/Hutool(四).md)
+  - [8.5、Hutool系统工具类](/java/Hutool/Hutool(五).md)
 
 
 
@@ -285,18 +247,19 @@
 
 #### **云原生**
 
-- [1、Git](/java/Git/尚硅谷Git.md)
-  - [1.1、Git(二)](/java/Git/尚硅谷Git(二).md)
-  - [1.2、Git(三)](/java/Git/尚硅谷Git(三).md)
-  - [1.3、Git(四)](/java/Git/尚硅谷Git(四).md)
-- [2、GitHub美化](/java/GitHub/Github美化.md)
+- [1、阿里云ACP云计算](/workstudy/workstudy_acp/ACP云计算(一).md)
+  - [1.1、ECS网络基础](/workstudy/workstudy_acp/ACP云计算(二).md)
+- [2、内网、DMZ区、外网](/workstudy/workstudy_Internet/workstudy_DMZ.md)
+- [3、数据交换与前置机](/workstudy/workstudy_Internet/workstudy_前置机.md)
+- [4、堡垒机、VPN、构建机](/workstudy/workstudy_Internet/workstudy_堡垒机.md)
+- [5、Web应用防火墙WAF](/workstudy/workstudy_Internet/workstudy_WAF.md)
+- [6、网关](/workstudy/workstudy_Internet/workstudy_网关和路由器.md)
+- [7、域名分层与域名缓存](/workstudy/workstudy_Internet/workstudy_域名分层与缓存.md)
 
 
 
 
 #### **糊涂工具**
-
-
 - [1、Git](/java/Git/尚硅谷Git.md)
   - [1.1、Git(二)](/java/Git/尚硅谷Git(二).md)
   - [1.2、Git(三)](/java/Git/尚硅谷Git(三).md)
@@ -304,12 +267,66 @@
 - [2、GitHub美化](/java/GitHub/Github美化.md)
 
 
+
+#### **技能证书**
+###### 银行从业证
+- [1、经济基础与金融基础](/workstudy/workstudy_bank/01_法律法规.md)
+- [2、公司贷款与外币存款](/workstudy/workstudy_bank/02_法律法规.md)
+- [3、商业银行资产负债管理与资本管理](/workstudy/workstudy_bank/03_法律法规.md)
+- [4、商业银行基本法律法规](/workstudy/workstudy_bank/04_法律法规.md)
+- [5、银行法律法规考试必备](/workstudy/workstudy_bank/05_法律法规.md)
+
+###### 阿里云ACP云计算
+- [1、阿里云ACP云计算](/workstudy/workstudy_acp/ACP云计算(一).md)
+  - [1.1、ECS网络基础](/workstudy/workstudy_acp/ACP云计算(二).md)
 
 
 
   <!-- tabs:end -->
 
 
+![](/static/img/carbon.png)
+
+<br>
+
+```charty
+{
+  "type":    "radar",
+  "options": {
+    "legend":  true,
+    "labels":  true,
+    "numbers": true
+  },
+  "data": [
+    {
+        "label": "2021",
+        "value": [60, 30, 45, 55, 50, 20, 30, 40],
+        "points": [
+            "创造者",
+            "观察者",
+            "激情主义者",
+            "挑战者",
+            "和平主义者",
+            "改革者",
+            "助人者",
+            "成就者"
+        ]
+    },
+    {
+        "label": "2023",
+        "value": [62, 32, 47, 57, 52, 22, 32, 42]
+    },
+    {
+        "label": "2024",
+        "value": [65, 33, 49, 59, 55, 25, 35, 45]
+    },
+    {
+        "label": "2025",
+        "value": [70, 40, 50, 60, 60, 30, 40, 45]
+    }
+  ]
+}
+```
 
 
 
