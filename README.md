@@ -205,6 +205,22 @@
 
 
 
+
+##### 踩坑积累
+- [1、开发环境梳理](/workstudy/workstudy_dev/workstudy_environment.md)
+- [2、SpringBoot 集成 LayUI 引发解析异常](/workstudy/workstudy_dev/workstudy_environment.md?id=_11、springboot集成layui)
+- [3、IDEA 连接 MySQL8.0 驱动无法下载问题](/workstudy/workstudy_dev/workstudy_environment.md?id=_12、idea连接mysql80驱动无法下载问题)
+- [4、MyBatisX 插件的配置信息](/workstudy/workstudy_dev/workstudy_environment.md?id=_13、mybatisx插件的配置信息)
+- [5、Springboot 实体类配置 Data 类型指定格式](/workstudy/workstudy_dev/workstudy_environment.md?id=_14、springboot实体类配置data类型指定格式)
+- [6、关于 IDEA2022 开启热部署](/workstudy/workstudy_dev/workstudy_environment.md?id=_15、关于idea2022开启热部署)
+- [7、SpringBoot 测试接口快捷键](/workstudy/workstudy_dev/workstudy_environment.md?id=_16、springboot测试接口快捷)
+- [8、MapStructPlus 与 Lombok 冲突](/workstudy/workstudy_dev/workstudy_environment.md?id=_17、mapstructplus与lombok冲突)
+- [9、jetbrains 产品集成 Github 令牌失败](/workstudy/workstudy_dev/workstudy_environment.md?id=_18、jetbrains产品集成github令牌失败)
+- [10、jetbrains 产品修改 git 远程仓库地址](/workstudy/workstudy_dev/workstudy_environment.md?id=_19、jetbrains产品修改git远程仓库地址)
+- [11、解决 Github port 443 : Timed out](/workstudy/workstudy_dev/workstudy_environment.md?id=_110、解决github-port-443-timed-out)
+- [12、解决 Webstrom 不识别 @别名](/workstudy/workstudy_dev/workstudy_environment.md?id=_111、解决webstrom不识别别名)
+
+
 #### **微服务体系**
 
 - [0、Nginx反向代理与负载均衡策略](/uTools/Nginx/狂神说Nginx.md)
@@ -255,6 +271,13 @@
 - [5、Web应用防火墙WAF](/workstudy/workstudy_Internet/workstudy_WAF.md)
 - [6、网关](/workstudy/workstudy_Internet/workstudy_网关和路由器.md)
 - [7、域名分层与域名缓存](/workstudy/workstudy_Internet/workstudy_域名分层与缓存.md)
+- [8、真实IP、虚拟IP(VIP)、EIP](/workstudy/workstudy_dev/workstudy_ip.md)
+
+
+
+
+
+
 
 
 
@@ -265,6 +288,12 @@
   - [1.2、Git(三)](/java/Git/尚硅谷Git(三).md)
   - [1.3、Git(四)](/java/Git/尚硅谷Git(四).md)
 - [2、GitHub美化](/java/GitHub/Github美化.md)
+
+
+
+
+
+
 
 
 
@@ -288,6 +317,8 @@
 ![](/static/img/carbon.png)
 
 <br>
+
+##### ♌ Astrological
 
 ```charty
 {
