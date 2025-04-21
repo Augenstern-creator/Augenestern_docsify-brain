@@ -1,14 +1,14 @@
-- 🍑 网络架构
-- 🍏 爪洼仓库
-- 🍈 MySQL技能树
-- 🍉 JDBC技术集
-- 🍋 JavaWeb体系
-- 🍅 Spring全家桶
-- 🍓 Linux专题
-- 🍎 Nginx专题
-- 🍏 Swagger技能点
-- 🥭 Hutool框架
-- 🍑 MyBatisPlus详解
+- [🍑 网络架构](/workstudy/workstudy_Internet/workstudy_DMZ.md)
+- [🍏 爪洼仓库](/java/README.md)
+- [🍈 MySQL技能树](/java/mysql/黑马MySQL(一).md)
+- [🍉 JDBC技术集](/java/jdbc/狂神说JDBC.md)
+- [🍋 JavaWeb体系](/java/javaweb/狂神说Tomcat.md)
+- [🍅 Spring全家桶](/java/javaee/传智spring(一).md)
+- [🍓 Linux专题](/java/linux/韩顺平Linux.md)
+- [🍎 Nginx专题](/java/Nginx/狂神说Nginx.md)
+- [🍏 Swagger技能点](/java/Swagger/01_Swagger.md)
+- [🥭 Hutool框架](/java/Hutool/Hutool(一).md)
+- [🍑 MyBatisPlus详解](/java/mybatisplus/01-MybatisPlus-基础篇.md)
 - 🍓 Shiro安全框架
 - 🥝 SpringCloud微服务
 - 🍅 RabbitMQ消息队列
