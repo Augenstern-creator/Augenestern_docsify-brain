@@ -28,9 +28,13 @@
     - [Java(七)](/workstudy/workstudy_interview/01_Java/Java面试(七).md)
     - [Java(八)](/workstudy/workstudy_interview/01_Java/Java面试(八).md)
     - [Java(九)](/workstudy/workstudy_interview/01_Java/Java面试(九).md)
+  - 🍋 数据结构
+    - [数据结构](/workstudy/workstudy_interview/05_数据结构/数据结构.md)
   - 🌂 MySQL
     - [MySQL(一)](/workstudy/workstudy_interview/02_Mysql/Mysql面试(一).md)
   - 🐧 操作系统
     - [操作系统(一)](/workstudy/workstudy_interview/03_操作系统/操作系统(一).md)
   - 🕸 计算机网络
     - [计算机网络(一)](/workstudy/workstudy_interview/04_计网/计网八股(一).md)
+  - 🍞 Redis
+    - [Redis(一)](/workstudy/workstudy_interview/06_Redis/Redis.md)

@@ -46,6 +46,7 @@
   - [4、SpringBoot(四)](/java/springboot/三更SpringBoot(四).md)
   - [5、SpringBoot(五)](/java/springboot/三更SpringBoot(五).md)
   - [6、SpringBoot(六)](/java/springboot/三更SpringBoot(六).md)
+  - [7、SpringBoot注解速查](/java/springboot/Java注解速查.md)
 - 🍍 Linux
   - [1、Linux(一)](/java/linux/韩顺平Linux.md)
   - [2、Linux(一)](/java/linux/韩顺平Linux(二).md)
@@ -55,6 +56,8 @@
   - [6、Linux(一)](/java/linux/韩顺平Linux(六).md)
   - [7、Linux(一)](/java/linux/韩顺平Linux(七).md)
   - [8、Linux(一)](/java/linux/韩顺平Linux(八).md)
+  - [9、云服务器](/java/linux/腾讯云服务器.md)
+  - [10、云服务器踩坑](/java/linux/服务器踩坑记录.md)
 - 🥭 Hutool
   - [1、Hutool工具框架](/java/Hutool/Hutool(一).md)
   - [2、Hutool文件与资源工具类](/java/Hutool/Hutool(二).md)
