@@ -5,36 +5,21 @@
   - [🍏 法律法规(四)](/workstudy/workstudy_bank/04_法律法规.md)
   - [🍏 法律法规(五)](/workstudy/workstudy_bank/05_法律法规.md)
 
-- 🍑 网络架构
-  - [🍇 DMZ区域的作用与原理](/workstudy/workstudy_Internet/workstudy_DMZ.md)
-  - [🍈 数据交换与前置机](/workstudy/workstudy_Internet/workstudy_前置机.md)
-  - [🍊 堡垒机 VPN 与构建机](/workstudy/workstudy_Internet/workstudy_堡垒机.md)
-  - [🍍 Web应用防火墙WAF](/workstudy/workstudy_Internet/workstudy_WAF.md)
-  - [🍎 网关和路由器](/workstudy/workstudy_Internet/workstudy_网关和路由器.md)
-  - [🍏 域名分层与域名缓存](/workstudy/workstudy_Internet/workstudy_域名分层与缓存.md)
-- 🌰 测试开发
-  - [🍋 SIT与UAT测试](/workstudy/workstudy_dev/workstudy_environment.md)
-  - [🥭 实体IP与虚拟IP(VIP)](/workstudy/workstudy_dev/workstudy_ip.md)
-  - [🍑 PO、VO、DTO的区别](/workstudy/workstudy_dev/workstudy_domain.md)
+- ⚛️杀死知识
+  - [杀死知识](/workstudy/workstudy_Internet/workstudy_Hunter.md)
+  - [智能知识平台](/workstudy/workstudy_Internet/workstudy_智能知识平台.md)
 - ⛳ 盘古踩坑
   - [🥭 踩坑积累](/workstudy/workstudy_dev/workstudy_dev.md)
-- ✋ 面试积累
-  - ☕ Java
-    - [Java(一)](/workstudy/workstudy_interview/01_Java/Java面试(一).md)
-    - [Java(二)](/workstudy/workstudy_interview/01_Java/Java面试(二).md)
-    - [Java(三)](/workstudy/workstudy_interview/01_Java/Java面试(三).md)
-    - [Java(四)](/workstudy/workstudy_interview/01_Java/Java面试(四).md)
-    - [Java(五)](/workstudy/workstudy_interview/01_Java/Java面试(五).md)
-    - [Java(七)](/workstudy/workstudy_interview/01_Java/Java面试(七).md)
-    - [Java(八)](/workstudy/workstudy_interview/01_Java/Java面试(八).md)
-    - [Java(九)](/workstudy/workstudy_interview/01_Java/Java面试(九).md)
-  - 🍋 数据结构
-    - [数据结构](/workstudy/workstudy_interview/05_数据结构/数据结构.md)
-  - 🌂 MySQL
-    - [MySQL(一)](/workstudy/workstudy_interview/02_Mysql/Mysql面试(一).md)
-  - 🐧 操作系统
-    - [操作系统(一)](/workstudy/workstudy_interview/03_操作系统/操作系统(一).md)
-  - 🕸 计算机网络
-    - [计算机网络(一)](/workstudy/workstudy_interview/04_计网/计网八股(一).md)
-  - 🍞 Redis
-    - [Redis(一)](/workstudy/workstudy_interview/06_Redis/Redis.md)
+- 🍑 网络架构
+  - [🍇 DMZ区域的作用与原理](/workstudy/workstudy_Internet/workstudy_DMZ.md?id=_1、什么是DMZ区域)
+  - [🍈 数据交换与前置机](/workstudy/workstudy_Internet/workstudy_DMZ.md?id=_6、前置机)
+  - [🍊 堡垒机 VPN 与构建机](/workstudy/workstudy_Internet/workstudy_DMZ.md?id=_2、Web应用防火墙WAF)
+  - [🍍 Web应用防火墙WAF](/workstudy/workstudy_Internet/workstudy_DMZ.md?id=_2、Web应用防火墙WAF)
+  - [🍎 网关和路由器](/workstudy/workstudy_Internet/workstudy_DMZ.md?id=_7、网关和路由器)
+  - [🍏 域名分层与域名缓存](/workstudy/workstudy_Internet/workstudy_DMZ.md?id_8、域名分层)
+  - [🥭 实体IP与虚拟IP(VIP)](/workstudy/workstudy_Internet/workstudy_DMZ.md?id_11、真实IP与虚拟IP(VIP))
+- 🌰 测试开发
+  - [🍋 SIT与UAT测试](/workstudy/workstudy_dev/workstudy_environment.md)
+  - [🍑 PO、VO、DTO的区别](/workstudy/workstudy_dev/workstudy_domain.md)
+
+

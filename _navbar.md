@@ -1,5 +1,5 @@
 - 开源轮子 🚀
-  - [开源GitHub](/opensource/opensource_github/AI_GitHub.md)
+  - [开源GitHub](/opensource/opensource_github/OpenGithub/AI_GitHub.md)
   - [开源Tools](/opensource/opensource_tools/opensource_tools.md)
 
 - 计算机基础 🎈
@@ -10,6 +10,7 @@
   - [计算机系统重装](/cs408/ReloadOS/重装系统.md)
   - [IDEA优化设置](/cs408/ReloadOS/IDEA优化设置.md)
   - [WebStrom优化设置](/cs408/ReloadOS/WebStrom优化设置.md)
+  - [GitHub美化](/opensource/opensource_github/Github/Github美化.md)
 - 
 - 
 - 
@@ -20,7 +21,7 @@
 - 
 - 
 
-- 前端仓库 🍧
+- 前端苍穹 🍧
   - [HTML](/web/HTML/HTML(一).md)
   - [CSS](/web/CSS/CSS(一).md)
   - [JavaScript](/web/JavaScript/JavaScript(一).md)
@@ -33,6 +34,9 @@
   - [Vue3](/web/Vue3/Vue3(一).md)
   - [WebPack](/web/WebPack/01_尚硅谷WebPack5.md)
   - [ElementPlus](/web/ElementPlus/01_Element%20Plus.md)
+  - [Ant Design](/web/Ant/01_AntDesignVue.md)
+  - [TypeScript基础](/web/TypeScript/01_TypeScript.md)
+  - [uniapp](/web/uniapp/01_uni-app.md)
 - [后端仓库 🍦](/java/README.md)
   - [JavaSE](/java/README.md)
   - [MySQL](/java/mysql/黑马MySQL(一).md)
@@ -46,7 +50,6 @@
   - [Nginx反向代理](/java/Nginx/狂神说Nginx.md)
   - [Swagger接口规范](/java/Swagger/01_Swagger.md)
   - [Git](/java/Git/尚硅谷Git.md)
-  - [GitHub美化](/java/GitHub/Github美化.md)
   - [MyBatisPlus](/java/mybatisplus/01-MybatisPlus-基础篇.md)
   - [Shiro](/java/shiro/不良人Shiro(一).md)
   - [SpringCloud](/java/springcloud/SpringCloud(一).md)

@@ -287,7 +287,7 @@
   - [1.1、Git(二)](/java/Git/尚硅谷Git(二).md)
   - [1.2、Git(三)](/java/Git/尚硅谷Git(三).md)
   - [1.3、Git(四)](/java/Git/尚硅谷Git(四).md)
-- [2、GitHub美化](/java/GitHub/Github美化.md)
+- [2、GitHub美化](/opensource/opensource_github/Github/Github美化.md)
 
 
 
