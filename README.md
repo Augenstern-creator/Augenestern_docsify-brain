@@ -34,8 +34,7 @@
 <h5>👨‍🎓 About Me</h5>
 
 > [!TIP]
-
-[comment]: <> (> 👋嗨咯，你好呀，欢迎来到<strong>逍遥小窝📚</strong>，作者初出象牙塔，目前任职于某知名央企🏦担任研发工程师💻，喜欢探索各类技术，利用工作之余，在这里分享技术、感悟、生活。<br>)
+> 👋嗨咯，你好呀，欢迎来到<strong>逍遥小窝📚</strong>，作者初出象牙塔，喜欢探索各类技术，利用工作之余，在这里分享技术、感悟、生活。<br>
 > <br>
 > <em>世界很喧嚣,做自己就好,送给<strong>卷又卷不赢,躺又躺不平</strong>的你,给你<strong>"被讨厌的勇气"</strong>和<strong>"做自己的底气"</strong>。</em><br>
 > <br>
@@ -294,11 +293,11 @@
     - [计算机网络(一)](/workstudy/workstudy_interview/04_计网/计网八股(一).md)
   - 🍞 Redis
     - [Redis(一)](/workstudy/workstudy_interview/06_Redis/Redis.md)
-  - 🫐 Nginx
+  - 🍑 Nginx
     - [Nginx(一)](/workstudy/workstudy_interview/07_Nginx/Nginx.md)
   - 🍎 Tomcat
     - [Tomcat(一)](/workstudy/workstudy_interview/08_Tomcat/Tomcat.md)
-  - 🫒 Zookeeper
+  - 🌰 Zookeeper
     - [Zookeeper(一)](/workstudy/workstudy_interview/09_Zookeeper/Zookeeper.md)
   - 🍑 SpringCloud
     - [SpringCloud(一)](/workstudy/workstudy_interview/10_SpringCloud/SpringCloud.md)
