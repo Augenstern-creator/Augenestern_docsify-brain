@@ -2,13 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>逍遥の小窝</title>
+  <title>栈の阁|StackVault</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <!--51LA网站统计-->
-  <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
-  <script>LA.init({id:"3IUJ8uqlkpJp27VE",ck:"3IUJ8uqlkpJp27VE",autoTrack:true})</script>
+
   <!-- Import Vue 3 -->
   <script src="//cdn.jsdelivr.net/npm/vue@3/dist/vue.global.prod.js"></script>
 
@@ -20,20 +19,20 @@
   <link rel="icon" type="image/png" sizes="16x16" href="./static/icon/favicon_io/favicon-16x16.png">
   <link rel="manifest" href="./static/icon/favicon_io/site.webmanifest">
   <!--复制提醒-->
-  <!--<link rel="stylesheet" href="https://cdn.bootcss.com/sweetalert/1.1.3/sweetalert.min.css" type='text/css' media='all' />-->
-  <link rel="stylesheet" href="static/css/sweetalert.min.css">
+  <link rel="stylesheet" href="https://cdn.bootcss.com/sweetalert/1.1.3/sweetalert.min.css" type='text/css' media='all' />
+  <!--<link rel="stylesheet" href="static/css/sweetalert.min.css">-->
   <!--问答手风琴-->
-  <!--<link rel="stylesheet" href="//unpkg.com/docsify-accordion/src/style.css">-->
-  <link rel="stylesheet" href="static/css/style.css">
+  <link rel="stylesheet" href="//unpkg.com/docsify-accordion/src/style.css">
+  <!--<link rel="stylesheet" href="static/css/style.css">-->
   <!-- 文章内右侧目录 -->
-  <!--<link rel="stylesheet" href="https://unpkg.com/docsify-plugin-toc@1.3.2/dist/light.css">-->
-  <link rel="stylesheet" href="static/css/light.css">
+  <link rel="stylesheet" href="https://unpkg.com/docsify-plugin-toc@1.3.2/dist/light.css">
+  <!--<link rel="stylesheet" href="static/css/light.css">-->
 
   <!--LaTeX-->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
   <!--暗黑模式-->
-  <!--<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/style.min.css"/>-->
-  <link rel="stylesheet" href="static/css/darkMode.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/style.min.css"/>
+  <!--<link rel="stylesheet" href="static/css/darkMode.css">-->
 
   <!--增强默认主题-->
   <!--<link-->
@@ -44,8 +43,8 @@
   <!--<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/LIGMATV/docsify-vite-coverpage@main/docsify-vite-coverpage.css">-->
 
   <!--图表-->
-  <!--<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@markbattistella/docsify-charty@latest/dist/docsify-charty.min.css">-->
-  <link rel="stylesheet" href="static/css/docsify-charty.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@markbattistella/docsify-charty@latest/dist/docsify-charty.min.css">
+  <!--<link rel="stylesheet" href="static/css/docsify-charty.min.css">-->
   <!--自定义CSS-->
   <link rel="stylesheet" href="./static/docsifyPlus.css">
 
@@ -138,11 +137,11 @@
         crossChapterText: true,
       },
       //   最后更新时间
-      timeUpdater: {
-        text: ">Last 🔥 Modify: {docsify-updated}",
-        formatUpdated: "{YYYY}/{MM}/{DD}",
-        whereToPlace: "bottom",  // "top" or "bottom", default to "bottom"
-      },
+      //timeUpdater: {
+      //  text: ">Last 🔥 Modify: {docsify-updated}",
+      //  formatUpdated: "{YYYY}/{MM}/{DD}",
+      //  whereToPlace: "bottom",  // "top" or "bottom", default to "bottom"
+      //},
       // 阅读进度条美化
       progress: {
         position: "top",
@@ -294,17 +293,17 @@
 <!--  <script src="/static/css/crypto-js.js"></script>-->
 <!--  <script src="/static/css/pwd.js"></script>-->
   <!-- Java代码高亮 -->
-  <!--<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>-->
-  <script src="static/js/prism-java.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
+  <!--<script src="static/js/prism-java.min.js"></script>-->
   <!-- 侧边栏可折叠 -->
-  <!--<script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>-->
-  <script src="static/js/docsify-siderbar-collapse.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  <!--<script src="static/js/docsify-siderbar-collapse.min.js"></script>-->
   <!-- 代码右上角复制 -->
-  <!--<script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>-->
-  <script src="static/js/docsify-copy-code.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <!--<script src="static/js/docsify-copy-code.min.js"></script>-->
   <!-- 复制提醒 -->
-  <!--<script src="https://cdn.bootcss.com/sweetalert/1.1.3/sweetalert.min.js"></script>-->
-  <script src="static/js/sweetalert.min.js"></script>
+  <script src="https://cdn.bootcss.com/sweetalert/1.1.3/sweetalert.min.js"></script>
+  <!--<script src="static/js/sweetalert.min.js"></script>-->
   <script>
     document.body.oncopy = function () {
       swal("复制成功 ",
@@ -312,26 +311,26 @@
           "success"); };
   </script>
   <!-- 全文搜索 -->
-  <!--<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>-->
-  <script src="static/js/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!--<script src="static/js/search.min.js"></script>-->
   <!--字数统计-->
-  <!--<script src="https://cdn.jsdelivr.net/npm/docsify-count@1.1.0/dist/countable.min.js"></script>-->
-  <script src="static/js/countable.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-count@1.1.0/dist/countable.min.js"></script>
+  <!--<script src="static/js/countable.min.js"></script>-->
   <!-- 回到顶部功能 -->
-  <!--<script src="https://cdn.jsdelivr.net/npm/docsify-scroll-to-top@1.0.2/dist/docsify-scroll-to-top.min.js"></script>-->
-  <script src="static/js/docsify-scroll-to-top.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-scroll-to-top@1.0.2/dist/docsify-scroll-to-top.min.js"></script>
+  <!--<script src="static/js/docsify-scroll-to-top.min.js"></script>-->
   <!-- 页脚 -->
-  <!--<script src="https://cdn.jsdelivr.net/npm/docsify-footer-enh@0.0.9/dist/docsify-footer-enh.min.js"></script>-->
-  <script src="static/js/docsify-footer-enh.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-footer-enh@0.0.9/dist/docsify-footer-enh.min.js"></script>
+  <!--<script src="static/js/docsify-footer-enh.min.js"></script>-->
   <!-- 表情符号 -->
-  <!--<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>-->
-  <script src="static/js/emoji.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <!--<script src="static/js/emoji.min.js"></script>-->
   <!-- 图片放大 -->
-  <!--<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>-->
-  <script src="static/js/zoom-image.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <!--<script src="static/js/zoom-image.min.js"></script>-->
   <!-- 红心点击特效 -->
-  <!--<script src="//cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/js/click_heart.js"></script>-->
-  <script src="static/js/click_heart.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/js/click_heart.js"></script>
+  <!--<script src="static/js/click_heart.js"></script>-->
   <!-- 离线模式 -->
   <script>
     if (typeof navigator.serviceWorker !== 'undefined') {
@@ -339,51 +338,51 @@
     }
   </script>
   <!-- MD引用样式美化 -->
-  <!--<script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>-->
-  <script src="static/js/docsify-plugin-flexible-alerts.min.js"></script>
+  <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+  <!--<script src="static/js/docsify-plugin-flexible-alerts.min.js"></script>-->
   <!--分页导航-->
-  <!--<script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>-->
-  <script src="static/js/docsify-pagination.min.js"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <!--<script src="static/js/docsify-pagination.min.js"></script>-->
   <!--更新时间-->
   <!--<script src="https://cdn.jsdelivr.net/npm/docsify-updated/src/time-updater.js"></script>-->
-  <script src="static/js/time-updater.js"></script>
+  <!--<script src="static/js/time-updater.js"></script>-->
   <!--阅读进度条美化-->
-  <!--<script src="https://cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>-->
-  <script src="static/js/progress.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
+  <!--<script src="static/js/progress.min.js"></script>-->
   <!--问答手风琴-->
-  <!--<script src="//unpkg.com/docsify-accordion/src/index.js"></script>-->
-  <srtipt src="static/js/index.js"></srtipt>
+  <script src="//unpkg.com/docsify-accordion/src/index.js"></script>
+  <!--<srtipt src="static/js/index.js"></srtipt>-->
   <!-- 文章内右侧目录 -->
-  <!--<script src="https://unpkg.com/docsify-plugin-toc@1.3.2/dist/docsify-plugin-toc.min.js"></script>-->
-  <script src="static/js/docsify-plugin-toc.min.js"></script>
+  <script src="https://unpkg.com/docsify-plugin-toc@1.3.2/dist/docsify-plugin-toc.min.js"></script>
+  <!--<script src="static/js/docsify-plugin-toc.min.js"></script>-->
   <!--给网页上的中文和英文、数字、符号之间添加空格-->
-  <!--<script src="//cdn.jsdelivr.net/npm/docsify-pangu/lib/pangu.min.js"></script>-->
-  <script src="static/js/pangu.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pangu/lib/pangu.min.js"></script>
+  <!--<script src="static/js/pangu.min.js"></script>-->
   <!--sql代码高亮 -->
-  <!--<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-sql.min.js"></script>-->
-  <script src="static/js/prism-sql.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-sql.min.js"></script>
+  <!--<script src="static/js/prism-sql.min.js"></script>-->
   <!--yaml代码高亮 -->
-  <!--<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-yaml.min.js"></script>-->
-  <script src="static/js/prism-yaml.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-yaml.min.js"></script>
+  <!--<script src="static/js/prism-yaml.min.js"></script>-->
   <!--properties代码高亮 -->
-  <!--<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-properties.min.js"></script>-->
-  <script src="static/js/prism-properties.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-properties.min.js"></script>
+  <!--<script src="static/js/prism-properties.min.js"></script>-->
   <!-- bash代码高亮 -->
-  <!--<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-bash.min.js"></script>-->
-  <script src="static/js/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-bash.min.js"></script>
+  <!--<script src="static/js/prism-bash.min.js"></script>-->
   <!--LaTeX-->
-  <!--<script src="//cdn.jsdelivr.net/npm/marked@4"></script>-->
+  <script src="//cdn.jsdelivr.net/npm/marked@4"></script>
   <script src="static/js/marked@4.js"></script>
-  <!--<script src="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>-->
-  <script src="static/js/katex.min.js"></script>
-  <!--<script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>-->
-  <script src="static/js/docsify-katex.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <!--<script src="static/js/katex.min.js"></script>-->
+  <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+  <!--<script src="static/js/docsify-katex.js"></script>-->
   <!--docsify-tabs-->
-  <!--<script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>-->
-  <script src="static/js/docsify-tabs@1.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+  <!--<script src="static/js/docsify-tabs@1.js"></script>-->
   <!--docsify-corner  -->
-  <!--<script src="//cdn.jsdelivr.net/npm/docsify-corner/dist/docsify-corner.js"></script>-->
-  <script src="static/js/docsify-corner.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-corner/dist/docsify-corner.js"></script>
+  <!--<script src="static/js/docsify-corner.js"></script>-->
 
   <!-- PDF嵌入 -->
   <!--<script src="//cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script>-->
@@ -396,8 +395,8 @@
   <script src="static/js/darkMode.js"></script>
 
   <!--图表-->
-  <!--<script src="//cdn.jsdelivr.net/npm/@markbattistella/docsify-charty@latest"></script>-->
-  <script src="static/js/docsify-charty.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/@markbattistella/docsify-charty@latest"></script>
+  <!--<script src="static/js/docsify-charty.js"></script>-->
 
   <!-- Docsify Chat -->
   <script src="//cdn.jsdelivr.net/npm/docsify-chat/lib/docsify-chat.min.js"></script>
