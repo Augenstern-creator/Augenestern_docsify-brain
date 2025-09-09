@@ -842,7 +842,11 @@ git config --global --unset http.proxy
 
 
 
+## 2.6、IDEA配置走代理
 
+在使用IDEA拉取Github项目，或者绑定Github账号时，可能会出现连接不上的情况，这个时候就需要配置IDEA的代理，根据上述2.5目录的内容填写即可
+
+![](workstudy_Hunter.assets/12.png)
 
 
 
